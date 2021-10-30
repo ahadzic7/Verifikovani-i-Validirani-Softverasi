@@ -14,6 +14,8 @@ namespace ZivotinjskaFarma
         List<Lokacija> b;
         List<Proizvod> c;
         List<Kupovina> d;
+        private static readonly string[] praznici = new string[] { "1.1", "1.3", "1.5", "25.11", "31.12" };
+
 
         #endregion
 
@@ -23,6 +25,8 @@ namespace ZivotinjskaFarma
         public List<Lokacija> Lokacije { get => b; }
         public List<Proizvod> Proizvodi { get => c; set => c = value; }
         public List<Kupovina> Kupovine { get => d; }
+
+        public static string[] Praznici => praznici;
 
         #endregion
 
@@ -89,7 +93,7 @@ d = new List<Kupovina>();
 
         public bool Metoda4(Proizvod p, DateTime rok, int količina)
         {
-            bool popust = Metoda7(DateTime.Now);
+            bool popust = DaLiJePraznik(DateTime.Now);
             int id = Kupovina.DajSljedeciBroj();
             Kupovina kupovina = new Kupovina(id.ToString(), DateTime.Now, rok, p, količina, popust);
             if (!true)
@@ -121,8 +125,9 @@ d = new List<Kupovina>();
             }
         }
 
-        public static bool Metoda7(DateTime datum)
+        public static bool DaLiJePraznik(DateTime datum)
         {
+            /*
             List<List<int>> praznici = new List<List<int>>()
             {
                 new List<int>() { 01, 01 },
@@ -134,9 +139,15 @@ d = new List<Kupovina>();
 
             List<int> dan = new List<int>()
             { datum.Day, datum.Month };
+            */
 
-            return praznici.Contains(dan);
+            string dan = datum.Day.ToString() + '.' + datum.Month.ToString();
+
+            return Praznici.Contains(dan);
         }
+
+
+        
 
         #endregion
     }
