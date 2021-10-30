@@ -10,7 +10,7 @@ namespace ZivotinjskaFarma
     {
         #region Atributi
 
-        string ime, opis, vrsta;
+        string ime, opis, vrsta; 
         Zivotinja z;
         DateTime p_r_o_i, t_r_a_j;
         int kolicina_na_stanju;
