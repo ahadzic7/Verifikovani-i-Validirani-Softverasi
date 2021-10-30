@@ -45,8 +45,6 @@ namespace ZivotinjskaFarma
             {
                 Console.Write("OK");
 
-                // provjeriti ovaj kod
-                // nisam siguran valja li datum
                 if (value < 1)
                     throw new ArgumentOutOfRangeException("Količina ne smije biti manja od 1!");
                 kolicina_na_stanju = value;
