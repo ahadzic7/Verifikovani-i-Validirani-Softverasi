@@ -91,14 +91,13 @@ d = new List<Kupovina>();
             return b.Remove(lokacija);
         }
 
-        public bool Metoda4(Proizvod p, DateTime rok, int količina)
+        public void Metoda4(Proizvod p, DateTime rok, int količina)
         {
             bool popust = DaLiJePraznik(DateTime.Now);
             int id = Kupovina.DajSljedeciBroj();
             Kupovina kupovina = new Kupovina(id.ToString(), DateTime.Now, rok, p, količina, popust);
 
             d.Add(kupovina);
-            return true;
         }
 
         public void Metoda5(Kupovina kupovina)
