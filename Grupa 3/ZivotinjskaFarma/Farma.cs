@@ -122,23 +122,7 @@ d = new List<Kupovina>();
 
         public static bool DaLiJePraznik(DateTime datum)
         {
-            /*
-            List<List<int>> praznici = new List<List<int>>()
-            {
-                new List<int>() { 01, 01 },
-                new List<int>() { 01, 03 },
-                new List<int>() { 01, 05 },
-                new List<int>() { 25, 11 },
-                new List<int>() { 31, 12 }
-            };
-
-            List<int> dan = new List<int>()
-            { datum.Day, datum.Month };
-            */
-
             string dan = datum.Day.ToString() + '.' + datum.Month.ToString();
-
-
             return Praznici.Contains(dan);
         }
 
