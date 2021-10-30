@@ -28,7 +28,6 @@ static int brojac = -0;
             {
                 if (value > DateTime.Now)
                     throw new FormatException("Životinja ne može biti rođena u budućnosti!");
-                if (value > DateTime.Now)
                     starost = value;
             }
         }
