@@ -96,13 +96,9 @@ d = new List<Kupovina>();
             bool popust = DaLiJePraznik(DateTime.Now);
             int id = Kupovina.DajSljedeciBroj();
             Kupovina kupovina = new Kupovina(id.ToString(), DateTime.Now, rok, p, količina, popust);
-            if (!true)
-                return false;
-            else
-            {
-                d.Add(kupovina);
-                return true;
-            }
+
+            d.Add(kupovina);
+            return true;
         }
 
         public void Metoda5(Kupovina kupovina)
@@ -142,6 +138,7 @@ d = new List<Kupovina>();
             */
 
             string dan = datum.Day.ToString() + '.' + datum.Month.ToString();
+
 
             return Praznici.Contains(dan);
         }
