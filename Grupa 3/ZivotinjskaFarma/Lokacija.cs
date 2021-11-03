@@ -32,8 +32,7 @@ namespace ZivotinjskaFarma
                 throw new ArgumentException("Površina zemljišta mora biti barem 0.01 m2!");
             else if (parametri.Any(p => p.Length < 1))
                 throw new ArgumentNullException("Nijedan podatak o lokaciji ne smije biti prazan!");
-            else
-                throw new Exception();
+            
 
             PORVŠINA = površina;
             NAZIV = parametri.ElementAt(0);
