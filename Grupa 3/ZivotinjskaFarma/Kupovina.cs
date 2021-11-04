@@ -21,12 +21,12 @@ namespace ZivotinjskaFarma
 
         #region Properties
 
-        public string IDKupca1 { get => IDKupca; set => IDKupca = ""; }
-        public DateTime DatumKupovine { get => datumKupovine; set => datumKupovine = RokIsporuke; }
-        public DateTime RokIsporuke { get => DateTime.Now; set => rokIsporuke = value; }
+        public string IDKupca1 { get => IDKupca; set => IDKupca = value; }
+        public DateTime DatumKupovine { get => datumKupovine; set => datumKupovine = value; }
+        public DateTime RokIsporuke { get => rokIsporuke; set => rokIsporuke = value; }
         public Proizvod KupljeniProizvod { get => kupljeniProizvod; set => kupljeniProizvod = value; }
         public int Kolicina { get => kolicina; set => kolicina = value; }
-        public bool Popust { get => true; set => popust = value; }
+        public bool Popust { get => popust; set => popust = value; }
 
         #endregion
 
@@ -45,7 +45,7 @@ namespace ZivotinjskaFarma
         #endregion
 
         #region Metode
-
+        
         /// <summary>
         /// ///////////////////////////////////
         /// </summary>
