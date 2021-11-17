@@ -1,23 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.5217" branch-rate="0.2692" version="1.9" timestamp="1637184656" lines-covered="168" lines-valid="322" branches-covered="28" branches-valid="104">
+<coverage line-rate="0.5603" branch-rate="0.3173" version="1.9" timestamp="1637186522" lines-covered="181" lines-valid="323" branches-covered="33" branches-valid="104">
   <sources>
     <source>C:\Users\Armin\</source>
   </sources>
   <packages>
-    <package name="Pijaca" line-rate="0.4578" branch-rate="0.24" complexity="134">
+    <package name="Pijaca" line-rate="0.496" branch-rate="0.29" complexity="134">
       <classes>
         <class name="Pijaca.Inspekcija" filename="Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Inspekcija.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="ŠtandIspravan" signature="(Pijaca.Štand)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="17" hits="1" branch="False" />
-                <line number="18" hits="1" branch="False" />
+                <line number="17" hits="20" branch="False" />
+                <line number="18" hits="20" branch="False" />
+                <line number="19" hits="20" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="17" hits="1" branch="False" />
-            <line number="18" hits="1" branch="False" />
+            <line number="17" hits="20" branch="False" />
+            <line number="18" hits="20" branch="False" />
+            <line number="19" hits="20" branch="False" />
           </lines>
         </class>
         <class name="Pijaca.Kupovina" filename="Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Kupovina.cs" line-rate="0" branch-rate="1" complexity="6">
@@ -624,16 +626,16 @@
             <line number="19" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="Pijaca.Tržnica" filename="Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Tržnica.cs" line-rate="0.30920000000000003" branch-rate="0.125" complexity="54">
+        <class name="Pijaca.Tržnica" filename="Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Tržnica.cs" line-rate="0.402" branch-rate="0.2291" complexity="54">
           <methods>
             <method name="get_Prodavači" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="21" hits="2" branch="False" />
+                <line number="21" hits="3" branch="False" />
               </lines>
             </method>
             <method name="get_Štandovi" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="22" hits="5" branch="False" />
+                <line number="22" hits="6" branch="False" />
               </lines>
             </method>
             <method name="get_UkupniPrometPijace" signature="()" line-rate="0" branch-rate="1" complexity="1">
@@ -817,34 +819,34 @@
                 <line number="148" hits="0" branch="False" />
               </lines>
             </method>
-            <method name="IzvršiInspekciju" signature="(Pijaca.IInspekcija)" line-rate="0.35710000000000003" branch-rate="0.1666" complexity="6">
+            <method name="IzvršiInspekciju" signature="(Pijaca.IInspekcija)" line-rate="1" branch-rate="1" complexity="6">
               <lines>
                 <line number="151" hits="1" branch="False" />
                 <line number="152" hits="1" branch="False" />
-                <line number="154" hits="4" branch="True" condition-coverage="50% (1/2)">
+                <line number="154" hits="43" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
-                    <condition number="53" type="jump" coverage="50%" />
+                    <condition number="53" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="155" hits="1" branch="False" />
-                <line number="156" hits="1" branch="True" condition-coverage="0% (0/2)">
+                <line number="155" hits="20" branch="False" />
+                <line number="156" hits="20" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
-                    <condition number="39" type="jump" coverage="0%" />
+                    <condition number="39" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="157" hits="0" branch="False" />
-                <line number="158" hits="0" branch="False" />
-                <line number="160" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="157" hits="20" branch="False" />
+                <line number="158" hits="20" branch="False" />
+                <line number="160" hits="1" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
-                    <condition number="81" type="jump" coverage="0%" />
+                    <condition number="81" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="161" hits="0" branch="False" />
-                <line number="162" hits="0" branch="False" />
-                <line number="163" hits="0" branch="False" />
-                <line number="164" hits="0" branch="False" />
-                <line number="165" hits="0" branch="False" />
-                <line number="166" hits="0" branch="False" />
+                <line number="161" hits="1" branch="False" />
+                <line number="162" hits="1" branch="False" />
+                <line number="163" hits="1" branch="False" />
+                <line number="164" hits="1" branch="False" />
+                <line number="165" hits="1" branch="False" />
+                <line number="166" hits="1" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -859,8 +861,8 @@
             </method>
           </methods>
           <lines>
-            <line number="21" hits="2" branch="False" />
-            <line number="22" hits="5" branch="False" />
+            <line number="21" hits="3" branch="False" />
+            <line number="22" hits="6" branch="False" />
             <line number="23" hits="0" branch="False" />
             <line number="41" hits="24" branch="False" />
             <line number="42" hits="24" branch="True" condition-coverage="50% (1/2)">
@@ -1016,30 +1018,30 @@
             <line number="148" hits="0" branch="False" />
             <line number="151" hits="1" branch="False" />
             <line number="152" hits="1" branch="False" />
-            <line number="154" hits="4" branch="True" condition-coverage="50% (1/2)">
+            <line number="154" hits="43" branch="True" condition-coverage="100% (2/2)">
               <conditions>
-                <condition number="53" type="jump" coverage="50%" />
+                <condition number="53" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="155" hits="1" branch="False" />
-            <line number="156" hits="1" branch="True" condition-coverage="0% (0/2)">
+            <line number="155" hits="20" branch="False" />
+            <line number="156" hits="20" branch="True" condition-coverage="100% (2/2)">
               <conditions>
-                <condition number="39" type="jump" coverage="0%" />
+                <condition number="39" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="157" hits="0" branch="False" />
-            <line number="158" hits="0" branch="False" />
-            <line number="160" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="157" hits="20" branch="False" />
+            <line number="158" hits="20" branch="False" />
+            <line number="160" hits="1" branch="True" condition-coverage="100% (2/2)">
               <conditions>
-                <condition number="81" type="jump" coverage="0%" />
+                <condition number="81" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="161" hits="0" branch="False" />
-            <line number="162" hits="0" branch="False" />
-            <line number="163" hits="0" branch="False" />
-            <line number="164" hits="0" branch="False" />
-            <line number="165" hits="0" branch="False" />
-            <line number="166" hits="0" branch="False" />
+            <line number="161" hits="1" branch="False" />
+            <line number="162" hits="1" branch="False" />
+            <line number="163" hits="1" branch="False" />
+            <line number="164" hits="1" branch="False" />
+            <line number="165" hits="1" branch="False" />
+            <line number="166" hits="1" branch="False" />
             <line number="29" hits="5" branch="False" />
             <line number="30" hits="5" branch="False" />
             <line number="31" hits="5" branch="False" />
@@ -1120,7 +1122,7 @@
         </class>
       </classes>
     </package>
-    <package name="Zadatak 2" line-rate="0.7397" branch-rate="1" complexity="9">
+    <package name="Zadatak 2" line-rate="0.7807999999999999" branch-rate="1" complexity="9">
       <classes>
         <class name="AutoGeneratedProgram" filename=".nuget\packages\microsoft.net.test.sdk\16.9.4\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -1134,9 +1136,9 @@
             <line number="4" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="Zadatak_2.TDD" filename="Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Zadatak 2\TDD.cs" line-rate="0.75" branch-rate="1" complexity="8">
+        <class name="Zadatak_2.TDD" filename="Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Zadatak 2\TDD.cs" line-rate="0.7916" branch-rate="1" complexity="8">
           <methods>
-            <method name="TestZamjenskiObjekat" signature="()" line-rate="0.8571" branch-rate="1" complexity="4">
+            <method name="TestZamjenskiObjekat" signature="()" line-rate="1" branch-rate="1" complexity="4">
               <lines>
                 <line number="15" hits="1" branch="False" />
                 <line number="16" hits="1" branch="False" />
@@ -1164,9 +1166,9 @@
                 <line number="32" hits="15" branch="False" />
                 <line number="34" hits="1" branch="False" />
                 <line number="35" hits="1" branch="False" />
-                <line number="37" hits="0" branch="False" />
-                <line number="38" hits="0" branch="False" />
-                <line number="39" hits="0" branch="False" />
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
               </lines>
             </method>
             <method name="DodavanjeMesnihProizvoda" signature="()" line-rate="0.625" branch-rate="1" complexity="1">
@@ -1264,9 +1266,9 @@
             <line number="32" hits="15" branch="False" />
             <line number="34" hits="1" branch="False" />
             <line number="35" hits="1" branch="False" />
-            <line number="37" hits="0" branch="False" />
-            <line number="38" hits="0" branch="False" />
-            <line number="39" hits="0" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
             <line number="47" hits="1" branch="False" />
             <line number="48" hits="1" branch="False" />
             <line number="49" hits="1" branch="False" />
