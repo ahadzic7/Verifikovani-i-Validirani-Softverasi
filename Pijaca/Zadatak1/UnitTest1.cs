@@ -51,5 +51,20 @@ namespace Zadatak1
             Assert.AreNotEqual(prometPrije, p.UkupniPromet);
             Assert.AreEqual(prometPrije + povecanje, p.UkupniPromet);
         }
+
+        [TestMethod]
+        public void TestNegativnogPrometa()
+        {
+            DateTime d1 = new DateTime(2021, 6, 1, 8, 30, 52);
+            DateTime d2 = new DateTime(2021, 5, 1, 8, 30, 52);
+            try
+            {
+                p.RegistrujPromet("sifra", 700, d2, d1);
+            }
+            catch (Exception ex)
+            {
+                Assert.Fail("Expected no exception, but got: " + ex.Message);
+            }
+        }
     }
 }
