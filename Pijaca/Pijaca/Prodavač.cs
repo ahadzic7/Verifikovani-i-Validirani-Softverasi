@@ -62,7 +62,8 @@ namespace Pijaca
         #endregion
 
         #region Metode
-
+        ///Implementirao Muris Sladić 18613
+        ///
         /// <summary>
         /// Metoda koja registruje promet prodavača.
         /// Ukoliko se poslana šifra ne poklapa sa sigurnosnim kodom prodavača, potrebno je baciti izuzetak.
@@ -74,7 +75,20 @@ namespace Pijaca
         /// </summary>
         public void RegistrujPromet(string šifra, double promet, DateTime početak, DateTime kraj)
         {
-            throw new NotImplementedException();
+            if (!šifra.Equals(sigurnosniKod))
+                throw new InvalidOperationException("Šifra i sigurnosni kod se ne poklapaju!");
+
+            int razlikaDatuma = (kraj.Year - početak.Year) * 12 + kraj.Month - početak.Month;
+            if (razlikaDatuma == 1 && kraj.Day <= početak.Day)
+                razlikaDatuma = 0;
+
+            if (promet == 0 && razlikaDatuma > 0)
+                aktivnost = false;
+
+            if (promet >1000 && (kraj - početak).TotalDays < 2) 
+                throw new InvalidOperationException("Neispravno uneseni podaci!");
+
+            ukupniPromet += promet;
         }
 
         #endregion
