@@ -13,7 +13,6 @@ namespace Pijaca
         List<Prodavač> prodavači;
         List<Štand> štandovi;
         double ukupniPrometPijace;
-
         #endregion
 
         #region Properties
@@ -115,9 +114,58 @@ namespace Pijaca
             prodavač.RegistrujPromet(sigurnosniKod, ukupanPromet, najranijaKupovina, najkasnijaKupovina);
         }
 
+        /// <summary>
+        /// implementirali Muris Sladic i Armin Hadzic 
+        /// </summary>
+        /// <param name="vrsta"></param>
+        /// <param name="svi"></param>
         public void DodajTipskeNamirnice(Namirnica vrsta, bool svi = false)
         {
-            throw new NotImplementedException();
+            if (vrsta.Equals(Namirnica.Poluproizvod))
+                throw new InvalidOperationException("");
+           
+            foreach (Štand value in štandovi)
+            {
+                List<Proizvod> p = value.Proizvodi;
+                if(vrsta.Equals(Namirnica.Meso))
+                {
+                    Proizvod p1 = new Proizvod(vrsta, "Suho meso", 10, DateTime.Now, 5, true);
+                    Proizvod p2 = new Proizvod(vrsta, "Pileća prsa", 10, DateTime.Now, 5, true);
+
+                    p.Add(p1);
+                    p.Add(p2);
+                }
+                else if (vrsta.Equals(Namirnica.Voće))
+                {
+                    Proizvod p1 = new Proizvod(vrsta, "Šljiva", 10, DateTime.Now, 5, true);
+                    Proizvod p2 = new Proizvod(vrsta, "Narandža", 10, DateTime.Now, 5, true);
+
+                    p.Add(p1);
+                    p.Add(p2);
+                }
+
+                if(svi)
+                {
+                    int br = 0;
+                    for(int i = 0; i < p.Count; i++)
+                    { 
+                        if(!p[i].VrstaNamirnice.Equals(vrsta))
+                        {
+                            br++;
+                            p.Remove(p[i]);
+                        }
+
+                    }
+
+                    if (br == 0)
+                        throw new InvalidOperationException("");
+
+                }
+
+
+                }
+
+
         }
 
         public void NaručiProizvode(Štand štand, List<Proizvod> proizvodi, List<int> količine, List<DateTime> rokovi, bool svi = false)

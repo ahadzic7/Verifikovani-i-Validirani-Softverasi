@@ -10,7 +10,9 @@ namespace Pijaca
     {
         public bool ŠtandIspravan(Štand š);
     }
-
+    /// <summary>
+    /// Implementirao Armin Hadzic 18667
+    /// </summary>
     public class Inspekcija : IInspekcija
     {
         public bool ŠtandIspravan(Štand š)

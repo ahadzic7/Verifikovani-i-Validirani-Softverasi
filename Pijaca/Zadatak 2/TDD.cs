@@ -49,7 +49,9 @@ namespace Zadatak_2
             Tržnica pijaca = new Tržnica();
             pijaca.RadSaProdavačima(p1, "Dodavanje");
             Proizvod mesniProizvod = new Proizvod(Namirnica.Meso, "Salama", 10, DateTime.Now.AddDays(-7), 2.5, true);
+
             pijaca.OtvoriŠtand(p1, new List<Proizvod>() { mesniProizvod }, DateTime.Now.AddDays(60));
+
             Assert.AreEqual(pijaca.Prodavači.Count, 1);
             Assert.IsTrue(pijaca.Štandovi.Count == 1);
             Assert.IsTrue(pijaca.Štandovi[0].Proizvodi.Contains(mesniProizvod));
@@ -58,6 +60,8 @@ namespace Zadatak_2
 
             Assert.AreEqual(pijaca.Štandovi.Count, 1);
             Assert.IsTrue(pijaca.Štandovi[0].Proizvodi.Contains(mesniProizvod));
+
+
             Assert.AreEqual(pijaca.Štandovi[0].Proizvodi.Count, 3);
             Assert.IsTrue(pijaca.Štandovi[0].Proizvodi[1].Ime == "Suho meso");
             Assert.IsTrue(pijaca.Štandovi[0].Proizvodi[2].Ime == "Pileća prsa");
