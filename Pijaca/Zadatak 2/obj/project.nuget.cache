@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z9b9ueExhcs9vHxGT91DbSZ5lVL28g6UhCj0t6mhvaabAPiDCIe4X3Ucr7UNDZSilCNPEmk5GXns2p7Ln0zKZA==",
+  "dgSpecHash": "ZoU2BmMkoF+QcNf+rMSK01clam1LkNWzOaKTLlEoRtn8s94ebJHM1qXgICE+cM1EMSVs3hiumr/CeVA3cWLTMg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Armin\\Documents\\GitHub\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Pijaca\\Zadatak 2\\Zadatak 2.csproj",
+  "projectFilePath": "C:\\Users\\Armin\\Documents\\GitHub\\Grupa-3-Verifikovani-i-Validirani-Softverasi\\Pijaca\\Zadatak 2\\Zadatak 2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Armin\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\Armin\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Armin\\Documents\\GitHub\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Pijaca\\Pijaca\\Pijaca.csproj": {}
+    "C:\\Users\\Armin\\Documents\\GitHub\\Grupa-3-Verifikovani-i-Validirani-Softverasi\\Pijaca\\Pijaca\\Pijaca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Armin\\Documents\\GitHub\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Pijaca\\Pijaca\\Pijaca.csproj": {
+    "C:\\Users\\Armin\\Documents\\GitHub\\Grupa-3-Verifikovani-i-Validirani-Softverasi\\Pijaca\\Pijaca\\Pijaca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Armin\\Documents\\GitHub\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Pijaca\\Pijaca\\Pijaca.csproj",
+        "projectUniqueName": "C:\\Users\\Armin\\Documents\\GitHub\\Grupa-3-Verifikovani-i-Validirani-Softverasi\\Pijaca\\Pijaca\\Pijaca.csproj",
         "projectName": "Pijaca",
-        "projectPath": "C:\\Users\\Armin\\Documents\\GitHub\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Pijaca\\Pijaca\\Pijaca.csproj",
+        "projectPath": "C:\\Users\\Armin\\Documents\\GitHub\\Grupa-3-Verifikovani-i-Validirani-Softverasi\\Pijaca\\Pijaca\\Pijaca.csproj",
         "packagesPath": "C:\\Users\\Armin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Armin\\Documents\\GitHub\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Pijaca\\Pijaca\\obj\\",
+        "outputPath": "C:\\Users\\Armin\\Documents\\GitHub\\Grupa-3-Verifikovani-i-Validirani-Softverasi\\Pijaca\\Pijaca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Armin\\AppData\\Roaming\\NuGet\\NuGet.Config",
