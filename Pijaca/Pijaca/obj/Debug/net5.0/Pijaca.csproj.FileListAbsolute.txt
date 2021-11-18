@@ -10,3 +10,15 @@ C:\Users\Armin\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pij
 C:\Users\Armin\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\obj\Debug\net5.0\Pijaca.dll
 C:\Users\Armin\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\obj\Debug\net5.0\ref\Pijaca.dll
 C:\Users\Armin\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\obj\Debug\net5.0\Pijaca.pdb
+C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\bin\Debug\net5.0\Pijaca.deps.json
+C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\bin\Debug\net5.0\Pijaca.dll
+C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\bin\Debug\net5.0\ref\Pijaca.dll
+C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\bin\Debug\net5.0\Pijaca.pdb
+C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\obj\Debug\net5.0\Pijaca.csprojAssemblyReference.cache
+C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\obj\Debug\net5.0\Pijaca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\obj\Debug\net5.0\Pijaca.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\obj\Debug\net5.0\Pijaca.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\obj\Debug\net5.0\Pijaca.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\obj\Debug\net5.0\Pijaca.dll
+C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\obj\Debug\net5.0\ref\Pijaca.dll
+C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\obj\Debug\net5.0\Pijaca.pdb
