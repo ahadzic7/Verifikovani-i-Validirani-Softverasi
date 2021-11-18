@@ -10,9 +10,7 @@ namespace Pijaca
     {
         public bool ŠtandIspravan(Štand š);
     }
-    /// <summary>
-    /// Implementirao Armin Hadzic 18667
-    /// </summary>
+   
     public class Inspekcija : IInspekcija
     {
         public bool ŠtandIspravan(Štand š)
@@ -20,7 +18,9 @@ namespace Pijaca
             throw new NotImplementedException();
         }
     }
-
+    /// <summary>
+    /// Implementirao Armin Hadzic 18667
+    /// </summary>
     public class StubInspekcija : IInspekcija
     {
         public bool ŠtandIspravan(Štand š)

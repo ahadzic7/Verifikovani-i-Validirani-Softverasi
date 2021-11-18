@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.19440000000000002" branch-rate="0.1551" version="1.9" timestamp="1637245528" lines-covered="63" lines-valid="324" branches-covered="18" branches-valid="116">
+<coverage line-rate="0.19440000000000002" branch-rate="0.1551" version="1.9" timestamp="1637254100" lines-covered="63" lines-valid="324" branches-covered="18" branches-valid="116">
   <sources>
     <source>C:\Users\Armin\</source>
   </sources>
@@ -10,14 +10,14 @@
           <methods>
             <method name="ŠtandIspravan" signature="(Pijaca.Štand)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="19" hits="0" branch="False" />
-                <line number="20" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="19" hits="0" branch="False" />
-            <line number="20" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
           </lines>
         </class>
         <class name="Pijaca.StubInspekcija" filename="Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Inspekcija.cs" line-rate="0" branch-rate="1" complexity="1">
