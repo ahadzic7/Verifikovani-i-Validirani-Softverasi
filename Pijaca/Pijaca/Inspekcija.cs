@@ -17,6 +17,14 @@ namespace Pijaca
     {
         public bool ŠtandIspravan(Štand š)
         {
+            throw new NotImplementedException();
+        }
+    }
+
+    public class StubInspekcija : IInspekcija
+    {
+        public bool ŠtandIspravan(Štand š)
+        {
             return false;
         }
     }

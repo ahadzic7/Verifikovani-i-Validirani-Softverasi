@@ -1,25 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.6414" branch-rate="0.4083" version="1.9" timestamp="1637244489" lines-covered="229" lines-valid="357" branches-covered="49" branches-valid="120">
+<coverage line-rate="0.6378" branch-rate="0.4083" version="1.9" timestamp="1637245525" lines-covered="229" lines-valid="359" branches-covered="49" branches-valid="120">
   <sources>
     <source>C:\Users\Armin\</source>
   </sources>
   <packages>
-    <package name="Pijaca" line-rate="0.5598" branch-rate="0.38789999999999997" complexity="149">
+    <package name="Pijaca" line-rate="0.5559000000000001" branch-rate="0.38789999999999997" complexity="150">
       <classes>
-        <class name="Pijaca.Inspekcija" filename="Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Inspekcija.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="Pijaca.Inspekcija" filename="Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Inspekcija.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
-            <method name="ŠtandIspravan" signature="(Pijaca.Štand)" line-rate="1" branch-rate="1" complexity="1">
+            <method name="ŠtandIspravan" signature="(Pijaca.Štand)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="19" hits="20" branch="False" />
-                <line number="20" hits="20" branch="False" />
-                <line number="21" hits="20" branch="False" />
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="19" hits="20" branch="False" />
-            <line number="20" hits="20" branch="False" />
-            <line number="21" hits="20" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Pijaca.StubInspekcija" filename="Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Inspekcija.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="ŠtandIspravan" signature="(Pijaca.Štand)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="20" branch="False" />
+                <line number="28" hits="20" branch="False" />
+                <line number="29" hits="20" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="27" hits="20" branch="False" />
+            <line number="28" hits="20" branch="False" />
+            <line number="29" hits="20" branch="False" />
           </lines>
         </class>
         <class name="Pijaca.Kupovina" filename="Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Kupovina.cs" line-rate="0" branch-rate="1" complexity="6">

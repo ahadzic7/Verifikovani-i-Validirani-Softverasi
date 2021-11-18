@@ -31,7 +31,7 @@ namespace Zadatak_2
                 pijaca.OtvoriŠtand(p, null, DateTime.Now.AddDays(50 + i));
             }
             
-            Inspekcija inspekcija = new Inspekcija();
+            IInspekcija inspekcija = new StubInspekcija();
             pijaca.IzvršiInspekciju(inspekcija);
 
             Assert.AreEqual(pijaca.Prodavači.Count, 0);
