@@ -16,7 +16,7 @@ namespace Zadatak3
         [TestInitialize]
         public void InicijalizacijaProdavaca()
         {
-            prodavac = new Prodavač("ime", "sifra", new DateTime(2021, 5, 1, 8, 30, 52), 0);
+            prodavac = new Prodavač("ime", "sifra", DateTime.Now.AddDays(-32), 0);
             proizvod = new Proizvod(Namirnica.Žitarica, "kukuruz", 49, DateTime.Now, 5, true);
             pijaca = new Tržnica();
         }
@@ -91,7 +91,8 @@ namespace Zadatak3
         [TestMethod]
         public void TestDatumOtvaranja()
         {
-            Assert.IsTrue(prodavac.OtvaranjeŠtanda == new DateTime(2021, 5, 1, 8, 30, 52));
+            Prodavač prodavac2 = new Prodavač("ime", "sifra", new DateTime(2021, 5, 1, 8, 30, 52), 0);
+            Assert.IsTrue(prodavac2.OtvaranjeŠtanda == new DateTime(2021, 5, 1, 8, 30, 52));
         }
 
         [TestMethod]
@@ -187,6 +188,64 @@ namespace Zadatak3
         public void TestUkupniPromet()
         {
             Assert.IsTrue(pijaca.UkupniPrometPijace == 0);
+        }
+
+        [TestMethod]
+        public void TestIzmjenaProdavaca()
+        {
+            pijaca.RadSaProdavačima(prodavac, "Dodavanje");
+            Assert.IsTrue(pijaca.Prodavači[0].Aktivnost == true);
+            prodavac.Aktivnost = false;
+            pijaca.RadSaProdavačima(prodavac, "Izmjena");
+            Assert.IsTrue(pijaca.Prodavači[0].Aktivnost == false);
+        }
+
+        [TestMethod]
+        public void TestIzvrsavanjeKupovina()
+        {
+            Prodavač prodavac2 = new Prodavač("ime", "sifra", DateTime.Now.AddDays(-35), 0);
+            pijaca.RadSaProdavačima(prodavac2, "Dodavanje");
+            stand = new Štand(prodavac2, DateTime.Now.AddDays(35));
+            Proizvod mesniProizvod = new Proizvod(Namirnica.Meso, "Salama", 10, DateTime.Now.AddDays(-7), 2.5, true);
+
+            Kupovina kupovina1 = new Kupovina(mesniProizvod, 2);
+            Kupovina kupovina2 = new Kupovina(proizvod, 10);
+            List<Kupovina> sveKupovine = new List<Kupovina>();
+
+            sveKupovine.Add(kupovina1);
+            sveKupovine.Add(kupovina2);
+
+            pijaca.OtvoriŠtand(prodavac2, new List<Proizvod>() { mesniProizvod, proizvod }, DateTime.Now.AddDays(60));
+
+            pijaca.IzvršavanjeKupovina(stand, sveKupovine, "sifra");
+            Assert.IsTrue(pijaca.Štandovi[0].Kupovine.Count == 2);
+            Assert.IsTrue(pijaca.Štandovi[0].Kupovine[1].Proizvod.Ime == "kukuruz");
+            Assert.IsTrue(pijaca.Prodavači[0].UkupniPromet == 55);
+        }
+
+        [TestMethod]
+        public void TestDodavanjaTipskogVoca()
+        {
+            Prodavač p1 = new Prodavač("Prodavač voca", "šifra-voce", DateTime.Parse("01/01/2021"), 100000);
+            Tržnica pijaca = new Tržnica();
+            pijaca.RadSaProdavačima(p1, "Dodavanje");
+            Proizvod vocka = new Proizvod(Namirnica.Voće, "Jabuka", 10, DateTime.Now.AddDays(-7), 2.5, true);
+
+            pijaca.OtvoriŠtand(p1, new List<Proizvod>() { vocka }, DateTime.Now.AddDays(60));
+
+            Assert.AreEqual(pijaca.Prodavači.Count, 1);
+            Assert.IsTrue(pijaca.Štandovi.Count == 1);
+            Assert.IsTrue(pijaca.Štandovi[0].Proizvodi.Contains(vocka));
+
+            pijaca.DodajTipskeNamirnice(Namirnica.Voće);
+
+            Assert.AreEqual(pijaca.Štandovi.Count, 1);
+            Assert.IsTrue(pijaca.Štandovi[0].Proizvodi.Contains(vocka));
+
+
+            Assert.AreEqual(pijaca.Štandovi[0].Proizvodi.Count, 3);
+            Assert.IsTrue(pijaca.Štandovi[0].Proizvodi[1].Ime == "Šljiva");
+            Assert.IsTrue(pijaca.Štandovi[0].Proizvodi[2].Ime == "Narandža");
         }
         #endregion
     }
