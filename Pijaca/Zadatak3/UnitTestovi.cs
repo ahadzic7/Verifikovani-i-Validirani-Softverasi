@@ -80,9 +80,13 @@ namespace Zadatak3
         [TestMethod]
         public void TestKupovinaDatum()
         {
-            Proizvod mesniProizvod = new Proizvod(Namirnica.Meso, "Salama", 10, DateTime.Now.AddDays(-7), 2.5, true);
+            DateTime datum = new DateTime(2021, 11, 27);
+            Proizvod mesniProizvod = new Proizvod(Namirnica.Meso, "Salama", 10, datum.AddDays(-7), 2.5, true);
             Kupovina kupovina = new Kupovina(mesniProizvod, 2);
-            Assert.IsTrue(kupovina.DatumKupovine.CompareTo(DateTime.Now) == 0);
+
+            Assert.AreEqual(kupovina.DatumKupovine.Year, DateTime.Now.Year);
+            Assert.AreEqual(kupovina.DatumKupovine.Month, DateTime.Now.Month);
+            Assert.AreEqual(kupovina.DatumKupovine.Day, DateTime.Now.Day);
         }
 
         #endregion

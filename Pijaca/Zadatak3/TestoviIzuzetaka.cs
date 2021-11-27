@@ -261,6 +261,14 @@ namespace Zadatak3
                 "Nemoguće naručiti proizvod - nije registrovan na štandu!");
         }
 
-            #endregion
+        #endregion
+
+        #region Inspekcija
+        [TestMethod]
+        public void TestInspekcija()
+        {
+            Assert.ThrowsException<NotImplementedException>(() => { Inspekcija i = new Inspekcija(); i.ŠtandIspravan(null); });
         }
+        #endregion
+    }
 }
