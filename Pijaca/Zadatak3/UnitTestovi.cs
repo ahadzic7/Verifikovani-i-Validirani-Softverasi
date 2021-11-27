@@ -4,7 +4,9 @@ using Pijaca;
 using System.Collections.Generic;
 
 namespace Zadatak3
-{
+
+    //Implementirao Muris Sladić, 18613
+{   //Odavde
     [TestClass]
     public class UnitTestovi
     {
@@ -251,6 +253,7 @@ namespace Zadatak3
             Assert.IsTrue(pijaca.Štandovi[0].Proizvodi[1].Ime == "Šljiva");
             Assert.IsTrue(pijaca.Štandovi[0].Proizvodi[2].Ime == "Narandža");
         }
+        //Do ovdje (Muris)
         #endregion
     }
 }

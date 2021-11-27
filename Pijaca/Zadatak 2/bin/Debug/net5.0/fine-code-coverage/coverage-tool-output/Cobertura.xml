@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.9296551724137931" branch-rate="0.828125" lines-covered="674" lines-valid="725" branches-covered="106" branches-valid="128" complexity="216" version="0" timestamp="1638029113">
+<coverage line-rate="0.9417098445595855" branch-rate="0.8828125" lines-covered="727" lines-valid="772" branches-covered="113" branches-valid="128" complexity="222" version="0" timestamp="1638041624">
   <sources>
-    <source>C:\Users\Armin\</source>
+    <source>C:\Users\User\</source>
   </sources>
   <packages>
-    <package name="Pijaca" line-rate="0.9072164948453608" branch-rate="0.8225806451612904" complexity="157">
+    <package name="Pijaca" line-rate="0.9278350515463918" branch-rate="0.8790322580645161" complexity="157">
       <classes>
-        <class name="Pijaca.Inspekcija" filename="C:\Users\Armin\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Inspekcija.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="Pijaca.Inspekcija" filename="C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Inspekcija.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="ŠtandIspravan" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -21,7 +21,7 @@
             <line number="18" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="Pijaca.Kupovina" filename="C:\Users\Armin\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Kupovina.cs" line-rate="1" branch-rate="1" complexity="6">
+        <class name="Pijaca.Kupovina" filename="C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Kupovina.cs" line-rate="1" branch-rate="1" complexity="6">
           <methods>
             <method name="get_Proizvod" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -45,7 +45,7 @@
             </method>
             <method name="get_DatumKupovine" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="26" hits="10" branch="false" />
+                <line number="26" hits="9" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
@@ -66,7 +66,7 @@
             <line number="23" hits="1" branch="false" />
             <line number="24" hits="3" branch="false" />
             <line number="25" hits="1" branch="false" />
-            <line number="26" hits="10" branch="false" />
+            <line number="26" hits="9" branch="false" />
             <line number="32" hits="8" branch="false" />
             <line number="33" hits="8" branch="false" />
             <line number="34" hits="8" branch="false" />
@@ -77,20 +77,20 @@
             <line number="39" hits="8" branch="false" />
           </lines>
         </class>
-        <class name="Pijaca.Prodavač" filename="C:\Users\Armin\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Prodavač.cs" line-rate="1" branch-rate="1" complexity="26">
+        <class name="Pijaca.Prodavač" filename="C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Prodavač.cs" line-rate="1" branch-rate="1" complexity="26">
           <methods>
             <method name="get_Ime" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="24" hits="392" branch="false" />
+                <line number="24" hits="394" branch="false" />
               </lines>
             </method>
             <method name="set_Ime" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
               <lines>
-                <line number="26" hits="86" branch="false" />
-                <line number="27" hits="86" branch="true" condition-coverage="100% (2/2)" />
+                <line number="26" hits="93" branch="false" />
+                <line number="27" hits="93" branch="true" condition-coverage="100% (2/2)" />
                 <line number="28" hits="2" branch="false" />
-                <line number="29" hits="84" branch="false" />
-                <line number="30" hits="84" branch="false" />
+                <line number="29" hits="91" branch="false" />
+                <line number="30" hits="91" branch="false" />
               </lines>
             </method>
             <method name="get_OtvaranjeŠtanda" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -100,23 +100,23 @@
             </method>
             <method name="set_OtvaranjeŠtanda" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
               <lines>
-                <line number="36" hits="86" branch="false" />
-                <line number="37" hits="86" branch="true" condition-coverage="100% (2/2)" />
+                <line number="36" hits="93" branch="false" />
+                <line number="37" hits="93" branch="true" condition-coverage="100% (2/2)" />
                 <line number="38" hits="1" branch="false" />
-                <line number="39" hits="85" branch="true" condition-coverage="100% (2/2)" />
+                <line number="39" hits="92" branch="true" condition-coverage="100% (2/2)" />
                 <line number="40" hits="1" branch="false" />
-                <line number="41" hits="84" branch="false" />
-                <line number="42" hits="84" branch="false" />
+                <line number="41" hits="91" branch="false" />
+                <line number="42" hits="91" branch="false" />
               </lines>
             </method>
             <method name="get_Aktivnost" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="44" hits="7" branch="false" />
+                <line number="44" hits="13" branch="false" />
               </lines>
             </method>
             <method name="get_UkupniPromet" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="45" hits="5" branch="false" />
+                <line number="45" hits="8" branch="false" />
               </lines>
             </method>
             <method name="RegistrujPromet" signature="(...)" line-rate="1" branch-rate="1" complexity="14">
@@ -137,46 +137,46 @@
             </method>
             <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
               <lines>
-                <line number="51" hits="84" branch="false" />
-                <line number="52" hits="84" branch="false" />
-                <line number="53" hits="84" branch="false" />
-                <line number="54" hits="84" branch="false" />
-                <line number="55" hits="84" branch="false" />
-                <line number="56" hits="84" branch="false" />
-                <line number="57" hits="84" branch="true" condition-coverage="100% (2/2)" />
+                <line number="51" hits="91" branch="false" />
+                <line number="52" hits="91" branch="false" />
+                <line number="53" hits="91" branch="false" />
+                <line number="54" hits="91" branch="false" />
+                <line number="55" hits="91" branch="false" />
+                <line number="56" hits="91" branch="false" />
+                <line number="57" hits="91" branch="true" condition-coverage="100% (2/2)" />
                 <line number="58" hits="1" branch="false" />
-                <line number="59" hits="83" branch="false" />
-                <line number="60" hits="83" branch="false" />
+                <line number="59" hits="90" branch="false" />
+                <line number="60" hits="90" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="24" hits="392" branch="false" />
-            <line number="26" hits="86" branch="false" />
-            <line number="27" hits="86" branch="true" condition-coverage="100% (2/2)" />
+            <line number="24" hits="394" branch="false" />
+            <line number="26" hits="93" branch="false" />
+            <line number="27" hits="93" branch="true" condition-coverage="100% (2/2)" />
             <line number="28" hits="2" branch="false" />
-            <line number="29" hits="84" branch="false" />
-            <line number="30" hits="84" branch="false" />
+            <line number="29" hits="91" branch="false" />
+            <line number="30" hits="91" branch="false" />
             <line number="34" hits="1" branch="false" />
-            <line number="36" hits="86" branch="false" />
-            <line number="37" hits="86" branch="true" condition-coverage="100% (2/2)" />
+            <line number="36" hits="93" branch="false" />
+            <line number="37" hits="93" branch="true" condition-coverage="100% (2/2)" />
             <line number="38" hits="1" branch="false" />
-            <line number="39" hits="85" branch="true" condition-coverage="100% (2/2)" />
+            <line number="39" hits="92" branch="true" condition-coverage="100% (2/2)" />
             <line number="40" hits="1" branch="false" />
-            <line number="41" hits="84" branch="false" />
-            <line number="42" hits="84" branch="false" />
-            <line number="44" hits="7" branch="false" />
-            <line number="45" hits="5" branch="false" />
-            <line number="51" hits="84" branch="false" />
-            <line number="52" hits="84" branch="false" />
-            <line number="53" hits="84" branch="false" />
-            <line number="54" hits="84" branch="false" />
-            <line number="55" hits="84" branch="false" />
-            <line number="56" hits="84" branch="false" />
-            <line number="57" hits="84" branch="true" condition-coverage="100% (2/2)" />
+            <line number="41" hits="91" branch="false" />
+            <line number="42" hits="91" branch="false" />
+            <line number="44" hits="13" branch="false" />
+            <line number="45" hits="8" branch="false" />
+            <line number="51" hits="91" branch="false" />
+            <line number="52" hits="91" branch="false" />
+            <line number="53" hits="91" branch="false" />
+            <line number="54" hits="91" branch="false" />
+            <line number="55" hits="91" branch="false" />
+            <line number="56" hits="91" branch="false" />
+            <line number="57" hits="91" branch="true" condition-coverage="100% (2/2)" />
             <line number="58" hits="1" branch="false" />
-            <line number="59" hits="83" branch="false" />
-            <line number="60" hits="83" branch="false" />
+            <line number="59" hits="90" branch="false" />
+            <line number="60" hits="90" branch="false" />
             <line number="77" hits="8" branch="false" />
             <line number="78" hits="8" branch="true" condition-coverage="100% (2/2)" />
             <line number="79" hits="2" branch="false" />
@@ -191,11 +191,11 @@
             <line number="92" hits="4" branch="false" />
           </lines>
         </class>
-        <class name="Pijaca.Proizvod" filename="C:\Users\Armin\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Proizvod.cs" line-rate="1" branch-rate="1" complexity="40">
+        <class name="Pijaca.Proizvod" filename="C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Proizvod.cs" line-rate="1" branch-rate="1" complexity="40">
           <methods>
             <method name="get_VrstaNamirnice" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="25" hits="80" branch="false" />
+                <line number="25" hits="85" branch="false" />
               </lines>
             </method>
             <method name="get_ŠifraProizvoda" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -210,13 +210,13 @@
             </method>
             <method name="set_Ime" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
               <lines>
-                <line number="33" hits="74" branch="false" />
-                <line number="34" hits="74" branch="true" condition-coverage="100% (2/2)" />
+                <line number="33" hits="79" branch="false" />
+                <line number="34" hits="79" branch="true" condition-coverage="100% (2/2)" />
                 <line number="35" hits="2" branch="false" />
-                <line number="36" hits="72" branch="true" condition-coverage="100% (2/2)" />
+                <line number="36" hits="77" branch="true" condition-coverage="100% (2/2)" />
                 <line number="37" hits="1" branch="false" />
-                <line number="39" hits="71" branch="false" />
-                <line number="40" hits="71" branch="false" />
+                <line number="39" hits="76" branch="false" />
+                <line number="40" hits="76" branch="false" />
               </lines>
             </method>
             <method name="get_KoličinaNaStanju" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -226,13 +226,13 @@
             </method>
             <method name="set_KoličinaNaStanju" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
               <lines>
-                <line number="47" hits="74" branch="false" />
-                <line number="48" hits="74" branch="true" condition-coverage="100% (2/2)" />
+                <line number="47" hits="79" branch="false" />
+                <line number="48" hits="79" branch="true" condition-coverage="100% (2/2)" />
                 <line number="49" hits="1" branch="false" />
-                <line number="50" hits="73" branch="true" condition-coverage="100% (2/2)" />
+                <line number="50" hits="78" branch="true" condition-coverage="100% (2/2)" />
                 <line number="51" hits="1" branch="false" />
-                <line number="53" hits="72" branch="false" />
-                <line number="54" hits="72" branch="false" />
+                <line number="53" hits="77" branch="false" />
+                <line number="54" hits="77" branch="false" />
               </lines>
             </method>
             <method name="get_OčekivanaKoličina" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -242,13 +242,13 @@
             </method>
             <method name="set_OčekivanaKoličina" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
               <lines>
-                <line number="61" hits="74" branch="false" />
-                <line number="62" hits="74" branch="true" condition-coverage="100% (2/2)" />
+                <line number="61" hits="79" branch="false" />
+                <line number="62" hits="79" branch="true" condition-coverage="100% (2/2)" />
                 <line number="63" hits="1" branch="false" />
-                <line number="64" hits="73" branch="true" condition-coverage="100% (2/2)" />
+                <line number="64" hits="78" branch="true" condition-coverage="100% (2/2)" />
                 <line number="65" hits="1" branch="false" />
-                <line number="67" hits="72" branch="false" />
-                <line number="68" hits="72" branch="false" />
+                <line number="67" hits="77" branch="false" />
+                <line number="68" hits="77" branch="false" />
               </lines>
             </method>
             <method name="get_DatumPristizanja" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -258,11 +258,11 @@
             </method>
             <method name="set_DatumPristizanja" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
               <lines>
-                <line number="75" hits="72" branch="false" />
-                <line number="76" hits="72" branch="true" condition-coverage="100% (2/2)" />
+                <line number="75" hits="77" branch="false" />
+                <line number="76" hits="77" branch="true" condition-coverage="100% (2/2)" />
                 <line number="77" hits="1" branch="false" />
-                <line number="79" hits="71" branch="false" />
-                <line number="80" hits="71" branch="false" />
+                <line number="79" hits="76" branch="false" />
+                <line number="80" hits="76" branch="false" />
               </lines>
             </method>
             <method name="get_DatumOčekivaneKoličine" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -286,13 +286,13 @@
             </method>
             <method name="set_CijenaProizvoda" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
               <lines>
-                <line number="99" hits="74" branch="false" />
-                <line number="100" hits="74" branch="true" condition-coverage="100% (2/2)" />
+                <line number="99" hits="79" branch="false" />
+                <line number="100" hits="79" branch="true" condition-coverage="100% (2/2)" />
                 <line number="101" hits="2" branch="false" />
-                <line number="102" hits="72" branch="true" condition-coverage="100% (2/2)" />
+                <line number="102" hits="77" branch="true" condition-coverage="100% (2/2)" />
                 <line number="103" hits="1" branch="false" />
-                <line number="105" hits="71" branch="false" />
-                <line number="106" hits="71" branch="false" />
+                <line number="105" hits="76" branch="false" />
+                <line number="106" hits="76" branch="false" />
               </lines>
             </method>
             <method name="get_Certifikat387" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -302,30 +302,30 @@
             </method>
             <method name="set_Certifikat387" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
               <lines>
-                <line number="113" hits="73" branch="false" />
-                <line number="114" hits="73" branch="true" condition-coverage="100% (2/2)" />
-                <line number="115" hits="67" branch="true" condition-coverage="100% (2/2)" />
+                <line number="113" hits="78" branch="false" />
+                <line number="114" hits="78" branch="true" condition-coverage="100% (2/2)" />
+                <line number="115" hits="72" branch="true" condition-coverage="100% (2/2)" />
                 <line number="116" hits="1" branch="false" />
-                <line number="118" hits="66" branch="false" />
+                <line number="118" hits="71" branch="false" />
                 <line number="119" hits="6" branch="true" condition-coverage="100% (2/2)" />
                 <line number="120" hits="1" branch="false" />
                 <line number="122" hits="5" branch="false" />
-                <line number="123" hits="71" branch="false" />
+                <line number="123" hits="76" branch="false" />
               </lines>
             </method>
             <method name="GenerišiŠifru" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
               <lines>
-                <line number="159" hits="71" branch="false" />
-                <line number="160" hits="142" branch="false" />
-                <line number="162" hits="71" branch="true" condition-coverage="100% (2/2)" />
-                <line number="163" hits="66" branch="false" />
+                <line number="159" hits="76" branch="false" />
+                <line number="160" hits="152" branch="false" />
+                <line number="162" hits="76" branch="true" condition-coverage="100% (2/2)" />
+                <line number="163" hits="71" branch="false" />
                 <line number="165" hits="5" branch="false" />
-                <line number="167" hits="71" branch="false" />
-                <line number="168" hits="71" branch="false" />
-                <line number="170" hits="71" branch="false" />
-                <line number="172" hits="71" branch="false" />
-                <line number="174" hits="71" branch="false" />
-                <line number="175" hits="71" branch="false" />
+                <line number="167" hits="76" branch="false" />
+                <line number="168" hits="76" branch="false" />
+                <line number="170" hits="76" branch="false" />
+                <line number="172" hits="76" branch="false" />
+                <line number="174" hits="76" branch="false" />
+                <line number="175" hits="76" branch="false" />
               </lines>
             </method>
             <method name="NaručiKoličinu" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
@@ -338,59 +338,59 @@
             </method>
             <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="130" hits="71" branch="false" />
-                <line number="131" hits="71" branch="false" />
-                <line number="132" hits="71" branch="false" />
-                <line number="133" hits="71" branch="false" />
-                <line number="134" hits="71" branch="false" />
-                <line number="135" hits="71" branch="false" />
-                <line number="136" hits="71" branch="false" />
-                <line number="137" hits="71" branch="false" />
-                <line number="138" hits="71" branch="false" />
-                <line number="139" hits="71" branch="false" />
-                <line number="140" hits="71" branch="false" />
+                <line number="130" hits="76" branch="false" />
+                <line number="131" hits="76" branch="false" />
+                <line number="132" hits="76" branch="false" />
+                <line number="133" hits="76" branch="false" />
+                <line number="134" hits="76" branch="false" />
+                <line number="135" hits="76" branch="false" />
+                <line number="136" hits="76" branch="false" />
+                <line number="137" hits="76" branch="false" />
+                <line number="138" hits="76" branch="false" />
+                <line number="139" hits="76" branch="false" />
+                <line number="140" hits="76" branch="false" />
               </lines>
             </method>
             <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="19" hits="2" branch="false" />
+                <line number="19" hits="3" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="19" hits="2" branch="false" />
-            <line number="25" hits="80" branch="false" />
+            <line number="19" hits="3" branch="false" />
+            <line number="25" hits="85" branch="false" />
             <line number="27" hits="1" branch="false" />
             <line number="31" hits="8" branch="false" />
-            <line number="33" hits="74" branch="false" />
-            <line number="34" hits="74" branch="true" condition-coverage="100% (2/2)" />
+            <line number="33" hits="79" branch="false" />
+            <line number="34" hits="79" branch="true" condition-coverage="100% (2/2)" />
             <line number="35" hits="2" branch="false" />
-            <line number="36" hits="72" branch="true" condition-coverage="100% (2/2)" />
+            <line number="36" hits="77" branch="true" condition-coverage="100% (2/2)" />
             <line number="37" hits="1" branch="false" />
-            <line number="39" hits="71" branch="false" />
-            <line number="40" hits="71" branch="false" />
+            <line number="39" hits="76" branch="false" />
+            <line number="40" hits="76" branch="false" />
             <line number="45" hits="2" branch="false" />
-            <line number="47" hits="74" branch="false" />
-            <line number="48" hits="74" branch="true" condition-coverage="100% (2/2)" />
+            <line number="47" hits="79" branch="false" />
+            <line number="48" hits="79" branch="true" condition-coverage="100% (2/2)" />
             <line number="49" hits="1" branch="false" />
-            <line number="50" hits="73" branch="true" condition-coverage="100% (2/2)" />
+            <line number="50" hits="78" branch="true" condition-coverage="100% (2/2)" />
             <line number="51" hits="1" branch="false" />
-            <line number="53" hits="72" branch="false" />
-            <line number="54" hits="72" branch="false" />
+            <line number="53" hits="77" branch="false" />
+            <line number="54" hits="77" branch="false" />
             <line number="59" hits="4" branch="false" />
-            <line number="61" hits="74" branch="false" />
-            <line number="62" hits="74" branch="true" condition-coverage="100% (2/2)" />
+            <line number="61" hits="79" branch="false" />
+            <line number="62" hits="79" branch="true" condition-coverage="100% (2/2)" />
             <line number="63" hits="1" branch="false" />
-            <line number="64" hits="73" branch="true" condition-coverage="100% (2/2)" />
+            <line number="64" hits="78" branch="true" condition-coverage="100% (2/2)" />
             <line number="65" hits="1" branch="false" />
-            <line number="67" hits="72" branch="false" />
-            <line number="68" hits="72" branch="false" />
+            <line number="67" hits="77" branch="false" />
+            <line number="68" hits="77" branch="false" />
             <line number="73" hits="1" branch="false" />
-            <line number="75" hits="72" branch="false" />
-            <line number="76" hits="72" branch="true" condition-coverage="100% (2/2)" />
+            <line number="75" hits="77" branch="false" />
+            <line number="76" hits="77" branch="true" condition-coverage="100% (2/2)" />
             <line number="77" hits="1" branch="false" />
-            <line number="79" hits="71" branch="false" />
-            <line number="80" hits="71" branch="false" />
+            <line number="79" hits="76" branch="false" />
+            <line number="80" hits="76" branch="false" />
             <line number="85" hits="2" branch="false" />
             <line number="87" hits="3" branch="false" />
             <line number="88" hits="3" branch="true" condition-coverage="100% (2/2)" />
@@ -398,52 +398,114 @@
             <line number="91" hits="2" branch="false" />
             <line number="92" hits="2" branch="false" />
             <line number="97" hits="8" branch="false" />
-            <line number="99" hits="74" branch="false" />
-            <line number="100" hits="74" branch="true" condition-coverage="100% (2/2)" />
+            <line number="99" hits="79" branch="false" />
+            <line number="100" hits="79" branch="true" condition-coverage="100% (2/2)" />
             <line number="101" hits="2" branch="false" />
-            <line number="102" hits="72" branch="true" condition-coverage="100% (2/2)" />
+            <line number="102" hits="77" branch="true" condition-coverage="100% (2/2)" />
             <line number="103" hits="1" branch="false" />
-            <line number="105" hits="71" branch="false" />
-            <line number="106" hits="71" branch="false" />
+            <line number="105" hits="76" branch="false" />
+            <line number="106" hits="76" branch="false" />
             <line number="111" hits="1" branch="false" />
-            <line number="113" hits="73" branch="false" />
-            <line number="114" hits="73" branch="true" condition-coverage="100% (2/2)" />
-            <line number="115" hits="67" branch="true" condition-coverage="100% (2/2)" />
+            <line number="113" hits="78" branch="false" />
+            <line number="114" hits="78" branch="true" condition-coverage="100% (2/2)" />
+            <line number="115" hits="72" branch="true" condition-coverage="100% (2/2)" />
             <line number="116" hits="1" branch="false" />
-            <line number="118" hits="66" branch="false" />
+            <line number="118" hits="71" branch="false" />
             <line number="119" hits="6" branch="true" condition-coverage="100% (2/2)" />
             <line number="120" hits="1" branch="false" />
             <line number="122" hits="5" branch="false" />
-            <line number="123" hits="71" branch="false" />
-            <line number="130" hits="71" branch="false" />
-            <line number="131" hits="71" branch="false" />
-            <line number="132" hits="71" branch="false" />
-            <line number="133" hits="71" branch="false" />
-            <line number="134" hits="71" branch="false" />
-            <line number="135" hits="71" branch="false" />
-            <line number="136" hits="71" branch="false" />
-            <line number="137" hits="71" branch="false" />
-            <line number="138" hits="71" branch="false" />
-            <line number="139" hits="71" branch="false" />
-            <line number="140" hits="71" branch="false" />
-            <line number="159" hits="71" branch="false" />
-            <line number="160" hits="142" branch="false" />
-            <line number="162" hits="71" branch="true" condition-coverage="100% (2/2)" />
-            <line number="163" hits="66" branch="false" />
+            <line number="123" hits="76" branch="false" />
+            <line number="130" hits="76" branch="false" />
+            <line number="131" hits="76" branch="false" />
+            <line number="132" hits="76" branch="false" />
+            <line number="133" hits="76" branch="false" />
+            <line number="134" hits="76" branch="false" />
+            <line number="135" hits="76" branch="false" />
+            <line number="136" hits="76" branch="false" />
+            <line number="137" hits="76" branch="false" />
+            <line number="138" hits="76" branch="false" />
+            <line number="139" hits="76" branch="false" />
+            <line number="140" hits="76" branch="false" />
+            <line number="159" hits="76" branch="false" />
+            <line number="160" hits="152" branch="false" />
+            <line number="162" hits="76" branch="true" condition-coverage="100% (2/2)" />
+            <line number="163" hits="71" branch="false" />
             <line number="165" hits="5" branch="false" />
-            <line number="167" hits="71" branch="false" />
-            <line number="168" hits="71" branch="false" />
-            <line number="170" hits="71" branch="false" />
-            <line number="172" hits="71" branch="false" />
-            <line number="174" hits="71" branch="false" />
-            <line number="175" hits="71" branch="false" />
+            <line number="167" hits="76" branch="false" />
+            <line number="168" hits="76" branch="false" />
+            <line number="170" hits="76" branch="false" />
+            <line number="172" hits="76" branch="false" />
+            <line number="174" hits="76" branch="false" />
+            <line number="175" hits="76" branch="false" />
             <line number="178" hits="1" branch="false" />
             <line number="179" hits="1" branch="false" />
             <line number="180" hits="1" branch="false" />
             <line number="181" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="Pijaca.StubInspekcija" filename="C:\Users\Armin\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Inspekcija.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="Pijaca.Štand" filename="C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Štand.cs" line-rate="1" branch-rate="1" complexity="7">
+          <methods>
+            <method name="get_Prodavač" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="242" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Proizvodi" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="63" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Kupovine" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="get_KrajZakupa" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="RegistrujKupovinu" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="47" hits="3" branch="false" />
+                <line number="48" hits="3" branch="false" />
+                <line number="49" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="31" hits="41" branch="false" />
+                <line number="32" hits="41" branch="false" />
+                <line number="33" hits="41" branch="false" />
+                <line number="34" hits="41" branch="true" condition-coverage="100% (2/2)" />
+                <line number="35" hits="13" branch="false" />
+                <line number="37" hits="28" branch="false" />
+                <line number="38" hits="41" branch="false" />
+                <line number="39" hits="41" branch="false" />
+                <line number="40" hits="41" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="22" hits="242" branch="false" />
+            <line number="23" hits="63" branch="false" />
+            <line number="24" hits="4" branch="false" />
+            <line number="25" hits="3" branch="false" />
+            <line number="31" hits="41" branch="false" />
+            <line number="32" hits="41" branch="false" />
+            <line number="33" hits="41" branch="false" />
+            <line number="34" hits="41" branch="true" condition-coverage="100% (2/2)" />
+            <line number="35" hits="13" branch="false" />
+            <line number="37" hits="28" branch="false" />
+            <line number="38" hits="41" branch="false" />
+            <line number="39" hits="41" branch="false" />
+            <line number="40" hits="41" branch="false" />
+            <line number="47" hits="3" branch="false" />
+            <line number="48" hits="3" branch="false" />
+            <line number="49" hits="3" branch="false" />
+          </lines>
+        </class>
+        <class name="Pijaca.StubInspekcija" filename="C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Inspekcija.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="ŠtandIspravan" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -459,78 +521,16 @@
             <line number="29" hits="20" branch="false" />
           </lines>
         </class>
-        <class name="Pijaca.Štand" filename="C:\Users\Armin\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Štand.cs" line-rate="1" branch-rate="1" complexity="7">
-          <methods>
-            <method name="get_Prodavač" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="22" hits="232" branch="false" />
-              </lines>
-            </method>
-            <method name="get_Proizvodi" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="23" hits="59" branch="false" />
-              </lines>
-            </method>
-            <method name="get_Kupovine" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="24" hits="4" branch="false" />
-              </lines>
-            </method>
-            <method name="get_KrajZakupa" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="25" hits="1" branch="false" />
-              </lines>
-            </method>
-            <method name="RegistrujKupovinu" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="47" hits="3" branch="false" />
-                <line number="48" hits="3" branch="false" />
-                <line number="49" hits="3" branch="false" />
-              </lines>
-            </method>
-            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
-              <lines>
-                <line number="31" hits="37" branch="false" />
-                <line number="32" hits="37" branch="false" />
-                <line number="33" hits="37" branch="false" />
-                <line number="34" hits="37" branch="true" condition-coverage="100% (2/2)" />
-                <line number="35" hits="9" branch="false" />
-                <line number="37" hits="28" branch="false" />
-                <line number="38" hits="37" branch="false" />
-                <line number="39" hits="37" branch="false" />
-                <line number="40" hits="37" branch="false" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="22" hits="232" branch="false" />
-            <line number="23" hits="59" branch="false" />
-            <line number="24" hits="4" branch="false" />
-            <line number="25" hits="1" branch="false" />
-            <line number="31" hits="37" branch="false" />
-            <line number="32" hits="37" branch="false" />
-            <line number="33" hits="37" branch="false" />
-            <line number="34" hits="37" branch="true" condition-coverage="100% (2/2)" />
-            <line number="35" hits="9" branch="false" />
-            <line number="37" hits="28" branch="false" />
-            <line number="38" hits="37" branch="false" />
-            <line number="39" hits="37" branch="false" />
-            <line number="40" hits="37" branch="false" />
-            <line number="47" hits="3" branch="false" />
-            <line number="48" hits="3" branch="false" />
-            <line number="49" hits="3" branch="false" />
-          </lines>
-        </class>
-        <class name="Pijaca.Tržnica" filename="C:\Users\Armin\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Tržnica.cs" line-rate="0.8014705882352942" branch-rate="0.6944444444444444" complexity="76">
+        <class name="Pijaca.Tržnica" filename="C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Tržnica.cs" line-rate="0.8455882352941176" branch-rate="0.7916666666666666" complexity="76">
           <methods>
             <method name="get_Prodavači" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="20" hits="8" branch="false" />
+                <line number="20" hits="13" branch="false" />
               </lines>
             </method>
             <method name="get_Štandovi" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="21" hits="29" branch="false" />
+                <line number="21" hits="36" branch="false" />
               </lines>
             </method>
             <method name="get_UkupniPrometPijace" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -540,54 +540,54 @@
             </method>
             <method name="RadSaProdavačima" signature="(...)" line-rate="1" branch-rate="1" complexity="14">
               <lines>
-                <line number="40" hits="39" branch="false" />
-                <line number="41" hits="39" branch="true" condition-coverage="100% (2/2)" />
+                <line number="40" hits="45" branch="false" />
+                <line number="41" hits="45" branch="true" condition-coverage="100% (2/2)" />
                 <line number="42" hits="1" branch="false" />
-                <line number="44" hits="233" branch="false" />
-                <line number="45" hits="38" branch="true" condition-coverage="100% (2/2)" />
-                <line number="46" hits="34" branch="false" />
-                <line number="47" hits="34" branch="true" condition-coverage="100% (2/2)" />
+                <line number="44" hits="240" branch="false" />
+                <line number="45" hits="44" branch="true" condition-coverage="100% (2/2)" />
+                <line number="46" hits="39" branch="false" />
+                <line number="47" hits="39" branch="true" condition-coverage="100% (2/2)" />
                 <line number="48" hits="1" branch="false" />
-                <line number="50" hits="33" branch="false" />
-                <line number="51" hits="33" branch="false" />
-                <line number="52" hits="4" branch="true" condition-coverage="100% (4/4)" />
-                <line number="53" hits="3" branch="false" />
-                <line number="54" hits="3" branch="true" condition-coverage="100% (2/2)" />
+                <line number="50" hits="38" branch="false" />
+                <line number="51" hits="38" branch="false" />
+                <line number="52" hits="5" branch="true" condition-coverage="100% (4/4)" />
+                <line number="53" hits="4" branch="false" />
+                <line number="54" hits="4" branch="true" condition-coverage="100% (2/2)" />
                 <line number="55" hits="2" branch="false" />
-                <line number="57" hits="1" branch="false" />
-                <line number="58" hits="2" branch="false" />
-                <line number="59" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="57" hits="2" branch="false" />
+                <line number="58" hits="4" branch="false" />
+                <line number="59" hits="2" branch="true" condition-coverage="100% (2/2)" />
                 <line number="60" hits="1" branch="false" />
-                <line number="61" hits="1" branch="false" />
-                <line number="62" hits="1" branch="false" />
+                <line number="61" hits="2" branch="false" />
+                <line number="62" hits="2" branch="false" />
                 <line number="64" hits="1" branch="false" />
-                <line number="65" hits="34" branch="false" />
+                <line number="65" hits="40" branch="false" />
               </lines>
             </method>
             <method name="OtvoriŠtand" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
               <lines>
-                <line number="68" hits="32" branch="false" />
-                <line number="69" hits="32" branch="true" condition-coverage="100% (2/2)" />
+                <line number="68" hits="36" branch="false" />
+                <line number="69" hits="36" branch="true" condition-coverage="100% (2/2)" />
                 <line number="70" hits="1" branch="false" />
-                <line number="71" hits="222" branch="true" condition-coverage="100% (2/2)" />
+                <line number="71" hits="226" branch="true" condition-coverage="100% (2/2)" />
                 <line number="72" hits="1" branch="false" />
-                <line number="73" hits="30" branch="false" />
-                <line number="74" hits="30" branch="false" />
-                <line number="75" hits="30" branch="false" />
+                <line number="73" hits="34" branch="false" />
+                <line number="74" hits="34" branch="false" />
+                <line number="75" hits="34" branch="false" />
               </lines>
             </method>
-            <method name="ZatvoriSveNeaktivneŠtandove" signature="()" line-rate="0" branch-rate="0" complexity="8">
+            <method name="ZatvoriSveNeaktivneŠtandove" signature="()" line-rate="1" branch-rate="1" complexity="8">
               <lines>
-                <line number="89" hits="0" branch="false" />
-                <line number="90" hits="0" branch="true" condition-coverage="0% (0/4)" />
-                <line number="91" hits="0" branch="false" />
-                <line number="92" hits="0" branch="false" />
-                <line number="93" hits="0" branch="true" condition-coverage="0% (0/4)" />
-                <line number="94" hits="0" branch="false" />
-                <line number="95" hits="0" branch="false" />
+                <line number="89" hits="5" branch="false" />
+                <line number="90" hits="7" branch="true" condition-coverage="100% (4/4)" />
+                <line number="91" hits="3" branch="false" />
+                <line number="92" hits="3" branch="false" />
+                <line number="93" hits="3" branch="true" condition-coverage="100% (4/4)" />
+                <line number="94" hits="6" branch="false" />
+                <line number="95" hits="5" branch="false" />
               </lines>
             </method>
-            <method name="IzvršavanjeKupovina" signature="(...)" line-rate="0.9444444444444444" branch-rate="0.875" complexity="8">
+            <method name="IzvršavanjeKupovina" signature="(...)" line-rate="0.8888888888888888" branch-rate="0.75" complexity="8">
               <lines>
                 <line number="98" hits="2" branch="false" />
                 <line number="99" hits="3" branch="false" />
@@ -599,8 +599,8 @@
                 <line number="107" hits="2" branch="false" />
                 <line number="108" hits="2" branch="true" condition-coverage="50% (1/2)" />
                 <line number="109" hits="0" branch="false" />
-                <line number="110" hits="2" branch="true" condition-coverage="100% (2/2)" />
-                <line number="111" hits="1" branch="false" />
+                <line number="110" hits="2" branch="true" condition-coverage="50% (1/2)" />
+                <line number="111" hits="0" branch="false" />
                 <line number="112" hits="2" branch="false" />
                 <line number="114" hits="2" branch="false" />
                 <line number="115" hits="2" branch="false" />
@@ -695,62 +695,62 @@
             </method>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="28" hits="48" branch="false" />
-                <line number="29" hits="48" branch="false" />
-                <line number="30" hits="48" branch="false" />
-                <line number="31" hits="48" branch="false" />
-                <line number="32" hits="48" branch="false" />
-                <line number="33" hits="48" branch="false" />
+                <line number="28" hits="53" branch="false" />
+                <line number="29" hits="53" branch="false" />
+                <line number="30" hits="53" branch="false" />
+                <line number="31" hits="53" branch="false" />
+                <line number="32" hits="53" branch="false" />
+                <line number="33" hits="53" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="20" hits="8" branch="false" />
-            <line number="21" hits="29" branch="false" />
+            <line number="20" hits="13" branch="false" />
+            <line number="21" hits="36" branch="false" />
             <line number="22" hits="1" branch="false" />
-            <line number="28" hits="48" branch="false" />
-            <line number="29" hits="48" branch="false" />
-            <line number="30" hits="48" branch="false" />
-            <line number="31" hits="48" branch="false" />
-            <line number="32" hits="48" branch="false" />
-            <line number="33" hits="48" branch="false" />
-            <line number="40" hits="39" branch="false" />
-            <line number="41" hits="39" branch="true" condition-coverage="100% (2/2)" />
+            <line number="28" hits="53" branch="false" />
+            <line number="29" hits="53" branch="false" />
+            <line number="30" hits="53" branch="false" />
+            <line number="31" hits="53" branch="false" />
+            <line number="32" hits="53" branch="false" />
+            <line number="33" hits="53" branch="false" />
+            <line number="40" hits="45" branch="false" />
+            <line number="41" hits="45" branch="true" condition-coverage="100% (2/2)" />
             <line number="42" hits="1" branch="false" />
-            <line number="44" hits="233" branch="false" />
-            <line number="45" hits="38" branch="true" condition-coverage="100% (2/2)" />
-            <line number="46" hits="34" branch="false" />
-            <line number="47" hits="34" branch="true" condition-coverage="100% (2/2)" />
+            <line number="44" hits="240" branch="false" />
+            <line number="45" hits="44" branch="true" condition-coverage="100% (2/2)" />
+            <line number="46" hits="39" branch="false" />
+            <line number="47" hits="39" branch="true" condition-coverage="100% (2/2)" />
             <line number="48" hits="1" branch="false" />
-            <line number="50" hits="33" branch="false" />
-            <line number="51" hits="33" branch="false" />
-            <line number="52" hits="4" branch="true" condition-coverage="100% (4/4)" />
-            <line number="53" hits="3" branch="false" />
-            <line number="54" hits="3" branch="true" condition-coverage="100% (2/2)" />
+            <line number="50" hits="38" branch="false" />
+            <line number="51" hits="38" branch="false" />
+            <line number="52" hits="5" branch="true" condition-coverage="100% (4/4)" />
+            <line number="53" hits="4" branch="false" />
+            <line number="54" hits="4" branch="true" condition-coverage="100% (2/2)" />
             <line number="55" hits="2" branch="false" />
-            <line number="57" hits="1" branch="false" />
-            <line number="58" hits="2" branch="false" />
-            <line number="59" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="57" hits="2" branch="false" />
+            <line number="58" hits="4" branch="false" />
+            <line number="59" hits="2" branch="true" condition-coverage="100% (2/2)" />
             <line number="60" hits="1" branch="false" />
-            <line number="61" hits="1" branch="false" />
-            <line number="62" hits="1" branch="false" />
+            <line number="61" hits="2" branch="false" />
+            <line number="62" hits="2" branch="false" />
             <line number="64" hits="1" branch="false" />
-            <line number="65" hits="34" branch="false" />
-            <line number="68" hits="32" branch="false" />
-            <line number="69" hits="32" branch="true" condition-coverage="100% (2/2)" />
+            <line number="65" hits="40" branch="false" />
+            <line number="68" hits="36" branch="false" />
+            <line number="69" hits="36" branch="true" condition-coverage="100% (2/2)" />
             <line number="70" hits="1" branch="false" />
-            <line number="71" hits="222" branch="true" condition-coverage="100% (2/2)" />
+            <line number="71" hits="226" branch="true" condition-coverage="100% (2/2)" />
             <line number="72" hits="1" branch="false" />
-            <line number="73" hits="30" branch="false" />
-            <line number="74" hits="30" branch="false" />
-            <line number="75" hits="30" branch="false" />
-            <line number="89" hits="0" branch="false" />
-            <line number="90" hits="0" branch="true" condition-coverage="0% (0/4)" />
-            <line number="91" hits="0" branch="false" />
-            <line number="92" hits="0" branch="false" />
-            <line number="93" hits="0" branch="true" condition-coverage="0% (0/4)" />
-            <line number="94" hits="0" branch="false" />
-            <line number="95" hits="0" branch="false" />
+            <line number="73" hits="34" branch="false" />
+            <line number="74" hits="34" branch="false" />
+            <line number="75" hits="34" branch="false" />
+            <line number="89" hits="5" branch="false" />
+            <line number="90" hits="7" branch="true" condition-coverage="100% (4/4)" />
+            <line number="91" hits="3" branch="false" />
+            <line number="92" hits="3" branch="false" />
+            <line number="93" hits="3" branch="true" condition-coverage="100% (4/4)" />
+            <line number="94" hits="6" branch="false" />
+            <line number="95" hits="5" branch="false" />
             <line number="98" hits="2" branch="false" />
             <line number="99" hits="3" branch="false" />
             <line number="100" hits="2" branch="true" condition-coverage="100% (2/2)" />
@@ -761,8 +761,8 @@
             <line number="107" hits="2" branch="false" />
             <line number="108" hits="2" branch="true" condition-coverage="50% (1/2)" />
             <line number="109" hits="0" branch="false" />
-            <line number="110" hits="2" branch="true" condition-coverage="100% (2/2)" />
-            <line number="111" hits="1" branch="false" />
+            <line number="110" hits="2" branch="true" condition-coverage="50% (1/2)" />
+            <line number="111" hits="0" branch="false" />
             <line number="112" hits="2" branch="false" />
             <line number="114" hits="2" branch="false" />
             <line number="115" hits="2" branch="false" />
@@ -847,7 +847,7 @@
     </package>
     <package name="Zadatak 2" line-rate="0.958904109589041" branch-rate="1" complexity="9">
       <classes>
-        <class name="AutoGeneratedProgram" filename="C:\Users\Armin\.nuget\packages\microsoft.net.test.sdk\16.9.4\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="AutoGeneratedProgram" filename="C:\Users\User\.nuget\packages\microsoft.net.test.sdk\16.9.4\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -859,7 +859,7 @@
             <line number="4" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="Zadatak_2.TDD" filename="C:\Users\Armin\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Zadatak 2\TDD.cs" line-rate="0.9722222222222222" branch-rate="1" complexity="8">
+        <class name="Zadatak_2.TDD" filename="C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Zadatak 2\TDD.cs" line-rate="0.9722222222222222" branch-rate="1" complexity="8">
           <methods>
             <method name="TestZamjenskiObjekat" signature="()" line-rate="1" branch-rate="1" complexity="4">
               <lines>
@@ -1031,9 +1031,9 @@
         </class>
       </classes>
     </package>
-    <package name="Zadatak1" line-rate="0.8157894736842105" branch-rate="1" complexity="7">
+    <package name="Zadatak1" line-rate="0.9176470588235294" branch-rate="1" complexity="13">
       <classes>
-        <class name="AutoGeneratedProgram" filename="C:\Users\Armin\.nuget\packages\microsoft.net.test.sdk\16.9.4\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="AutoGeneratedProgram" filename="C:\Users\User\.nuget\packages\microsoft.net.test.sdk\16.9.4\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -1045,44 +1045,43 @@
             <line number="4" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="Zadatak1.ProdavacTest" filename="C:\Users\Armin\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Zadatak1\UnitTest1.cs" line-rate="0.8378378378378378" branch-rate="1" complexity="6">
+        <class name="Zadatak1.ProdavacTest" filename="C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Zadatak1\UnitTest1.cs" line-rate="0.8378378378378378" branch-rate="1" complexity="6">
           <methods>
             <method name="InicijalizacijaProdavaca" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="5" branch="false" />
                 <line number="14" hits="5" branch="false" />
                 <line number="15" hits="5" branch="false" />
+                <line number="16" hits="5" branch="false" />
               </lines>
             </method>
             <method name="TestPogresnaSifra" signature="()" line-rate="0.6666666666666666" branch-rate="1" complexity="1">
               <lines>
-                <line number="21" hits="1" branch="false" />
                 <line number="22" hits="1" branch="false" />
-                <line number="23" hits="0" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="0" branch="false" />
               </lines>
             </method>
             <method name="TestAktivnosti" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="27" hits="1" branch="false" />
                 <line number="28" hits="1" branch="false" />
                 <line number="29" hits="1" branch="false" />
                 <line number="30" hits="1" branch="false" />
                 <line number="31" hits="1" branch="false" />
                 <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
               </lines>
             </method>
             <method name="TestPogresnihPodataka" signature="()" line-rate="0.8" branch-rate="1" complexity="1">
               <lines>
-                <line number="37" hits="1" branch="false" />
                 <line number="38" hits="1" branch="false" />
                 <line number="39" hits="1" branch="false" />
                 <line number="40" hits="1" branch="false" />
-                <line number="41" hits="0" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="0" branch="false" />
               </lines>
             </method>
             <method name="TestPovecanjaPrometa" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="45" hits="1" branch="false" />
                 <line number="46" hits="1" branch="false" />
                 <line number="47" hits="1" branch="false" />
                 <line number="48" hits="1" branch="false" />
@@ -1091,43 +1090,43 @@
                 <line number="51" hits="1" branch="false" />
                 <line number="52" hits="1" branch="false" />
                 <line number="53" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
               </lines>
             </method>
             <method name="TestNegativnogPrometa" signature="()" line-rate="0.6363636363636364" branch-rate="1" complexity="1">
               <lines>
-                <line number="57" hits="1" branch="false" />
                 <line number="58" hits="1" branch="false" />
                 <line number="59" hits="1" branch="false" />
-                <line number="61" hits="1" branch="false" />
+                <line number="60" hits="1" branch="false" />
                 <line number="62" hits="1" branch="false" />
                 <line number="63" hits="1" branch="false" />
-                <line number="64" hits="0" branch="false" />
+                <line number="64" hits="1" branch="false" />
                 <line number="65" hits="0" branch="false" />
                 <line number="66" hits="0" branch="false" />
                 <line number="67" hits="0" branch="false" />
-                <line number="68" hits="1" branch="false" />
+                <line number="68" hits="0" branch="false" />
+                <line number="69" hits="1" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="13" hits="5" branch="false" />
             <line number="14" hits="5" branch="false" />
             <line number="15" hits="5" branch="false" />
-            <line number="21" hits="1" branch="false" />
+            <line number="16" hits="5" branch="false" />
             <line number="22" hits="1" branch="false" />
-            <line number="23" hits="0" branch="false" />
-            <line number="27" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="0" branch="false" />
             <line number="28" hits="1" branch="false" />
             <line number="29" hits="1" branch="false" />
             <line number="30" hits="1" branch="false" />
             <line number="31" hits="1" branch="false" />
             <line number="32" hits="1" branch="false" />
-            <line number="37" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
             <line number="38" hits="1" branch="false" />
             <line number="39" hits="1" branch="false" />
             <line number="40" hits="1" branch="false" />
-            <line number="41" hits="0" branch="false" />
-            <line number="45" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="0" branch="false" />
             <line number="46" hits="1" branch="false" />
             <line number="47" hits="1" branch="false" />
             <line number="48" hits="1" branch="false" />
@@ -1136,24 +1135,149 @@
             <line number="51" hits="1" branch="false" />
             <line number="52" hits="1" branch="false" />
             <line number="53" hits="1" branch="false" />
-            <line number="57" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
             <line number="58" hits="1" branch="false" />
             <line number="59" hits="1" branch="false" />
-            <line number="61" hits="1" branch="false" />
+            <line number="60" hits="1" branch="false" />
             <line number="62" hits="1" branch="false" />
             <line number="63" hits="1" branch="false" />
-            <line number="64" hits="0" branch="false" />
+            <line number="64" hits="1" branch="false" />
             <line number="65" hits="0" branch="false" />
             <line number="66" hits="0" branch="false" />
             <line number="67" hits="0" branch="false" />
-            <line number="68" hits="1" branch="false" />
+            <line number="68" hits="0" branch="false" />
+            <line number="69" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="Zadatak1.ZatvoriStandoveTestovi" filename="C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Zadatak1\UnitTest2.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="InicijalizacijaProdavaca" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="5" branch="false" />
+                <line number="19" hits="5" branch="false" />
+                <line number="20" hits="5" branch="false" />
+                <line number="21" hits="5" branch="false" />
+                <line number="22" hits="5" branch="false" />
+              </lines>
+            </method>
+            <method name="NemaStandova" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="nemaProdavaca" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="prodavacNeaktivanINemaPara" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="44" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+                <line number="50" hits="1" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="prodavacNeaktivanAliImaPara" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="56" hits="1" branch="false" />
+                <line number="57" hits="1" branch="false" />
+                <line number="58" hits="1" branch="false" />
+                <line number="59" hits="1" branch="false" />
+                <line number="60" hits="1" branch="false" />
+                <line number="61" hits="1" branch="false" />
+                <line number="62" hits="1" branch="false" />
+                <line number="63" hits="1" branch="false" />
+                <line number="64" hits="1" branch="false" />
+                <line number="65" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="prodavacImaParaAliIstekaoZakup" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="69" hits="1" branch="false" />
+                <line number="70" hits="1" branch="false" />
+                <line number="71" hits="1" branch="false" />
+                <line number="72" hits="1" branch="false" />
+                <line number="73" hits="1" branch="false" />
+                <line number="74" hits="1" branch="false" />
+                <line number="75" hits="1" branch="false" />
+                <line number="76" hits="1" branch="false" />
+                <line number="77" hits="1" branch="false" />
+                <line number="78" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="5" branch="false" />
+            <line number="19" hits="5" branch="false" />
+            <line number="20" hits="5" branch="false" />
+            <line number="21" hits="5" branch="false" />
+            <line number="22" hits="5" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
+            <line number="57" hits="1" branch="false" />
+            <line number="58" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="60" hits="1" branch="false" />
+            <line number="61" hits="1" branch="false" />
+            <line number="62" hits="1" branch="false" />
+            <line number="63" hits="1" branch="false" />
+            <line number="64" hits="1" branch="false" />
+            <line number="65" hits="1" branch="false" />
+            <line number="69" hits="1" branch="false" />
+            <line number="70" hits="1" branch="false" />
+            <line number="71" hits="1" branch="false" />
+            <line number="72" hits="1" branch="false" />
+            <line number="73" hits="1" branch="false" />
+            <line number="74" hits="1" branch="false" />
+            <line number="75" hits="1" branch="false" />
+            <line number="76" hits="1" branch="false" />
+            <line number="77" hits="1" branch="false" />
+            <line number="78" hits="1" branch="false" />
           </lines>
         </class>
       </classes>
     </package>
     <package name="Zadatak3" line-rate="0.9566563467492261" branch-rate="1" complexity="43">
       <classes>
-        <class name="AutoGeneratedProgram" filename="C:\Users\Armin\.nuget\packages\microsoft.net.test.sdk\16.9.4\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="AutoGeneratedProgram" filename="C:\Users\User\.nuget\packages\microsoft.net.test.sdk\16.9.4\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -1165,7 +1289,7 @@
             <line number="4" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="Zadatak3.TestoviIzuzetaka" filename="C:\Users\Armin\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Zadatak3\TestoviIzuzetaka.cs" line-rate="0.9277777777777778" branch-rate="1" complexity="18">
+        <class name="Zadatak3.TestoviIzuzetaka" filename="C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Zadatak3\TestoviIzuzetaka.cs" line-rate="0.9277777777777778" branch-rate="1" complexity="18">
           <methods>
             <method name="InicijalizacijaProdavaca" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -1603,390 +1727,390 @@
             <line number="271" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="Zadatak3.UnitTestovi" filename="C:\Users\Armin\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Zadatak3\UnitTestovi.cs" line-rate="1" branch-rate="1" complexity="24">
+        <class name="Zadatak3.UnitTestovi" filename="C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Zadatak3\UnitTestovi.cs" line-rate="1" branch-rate="1" complexity="24">
           <methods>
             <method name="InicijalizacijaProdavaca" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="23" branch="false" />
-                <line number="19" hits="23" branch="false" />
                 <line number="20" hits="23" branch="false" />
                 <line number="21" hits="23" branch="false" />
                 <line number="22" hits="23" branch="false" />
+                <line number="23" hits="23" branch="false" />
+                <line number="24" hits="23" branch="false" />
               </lines>
             </method>
             <method name="TestKrajZakupa" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="27" hits="1" branch="false" />
-                <line number="28" hits="1" branch="false" />
                 <line number="29" hits="1" branch="false" />
                 <line number="30" hits="1" branch="false" />
                 <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
               </lines>
             </method>
             <method name="TestKupovine" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="35" hits="1" branch="false" />
-                <line number="36" hits="1" branch="false" />
                 <line number="37" hits="1" branch="false" />
                 <line number="38" hits="1" branch="false" />
                 <line number="39" hits="1" branch="false" />
                 <line number="40" hits="1" branch="false" />
                 <line number="41" hits="1" branch="false" />
                 <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
               </lines>
             </method>
             <method name="TestKupovinaProizvod" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="50" hits="1" branch="false" />
-                <line number="51" hits="1" branch="false" />
                 <line number="52" hits="1" branch="false" />
                 <line number="53" hits="1" branch="false" />
                 <line number="54" hits="1" branch="false" />
+                <line number="55" hits="1" branch="false" />
+                <line number="56" hits="1" branch="false" />
               </lines>
             </method>
             <method name="TestKupovinaKolicina" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="58" hits="1" branch="false" />
-                <line number="59" hits="1" branch="false" />
                 <line number="60" hits="1" branch="false" />
                 <line number="61" hits="1" branch="false" />
                 <line number="62" hits="1" branch="false" />
+                <line number="63" hits="1" branch="false" />
+                <line number="64" hits="1" branch="false" />
               </lines>
             </method>
             <method name="TestKupovinaCijena" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="66" hits="1" branch="false" />
-                <line number="67" hits="1" branch="false" />
                 <line number="68" hits="1" branch="false" />
                 <line number="69" hits="1" branch="false" />
                 <line number="70" hits="1" branch="false" />
+                <line number="71" hits="1" branch="false" />
+                <line number="72" hits="1" branch="false" />
               </lines>
             </method>
             <method name="TestKupovinaPopust" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="74" hits="1" branch="false" />
-                <line number="75" hits="1" branch="false" />
                 <line number="76" hits="1" branch="false" />
                 <line number="77" hits="1" branch="false" />
                 <line number="78" hits="1" branch="false" />
+                <line number="79" hits="1" branch="false" />
+                <line number="80" hits="1" branch="false" />
               </lines>
             </method>
             <method name="TestKupovinaDatum" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="82" hits="1" branch="false" />
-                <line number="83" hits="1" branch="false" />
                 <line number="84" hits="1" branch="false" />
                 <line number="85" hits="1" branch="false" />
+                <line number="86" hits="1" branch="false" />
                 <line number="87" hits="1" branch="false" />
-                <line number="88" hits="1" branch="false" />
                 <line number="89" hits="1" branch="false" />
                 <line number="90" hits="1" branch="false" />
+                <line number="91" hits="1" branch="false" />
+                <line number="92" hits="1" branch="false" />
               </lines>
             </method>
             <method name="TestDatumOtvaranja" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="97" hits="1" branch="false" />
-                <line number="98" hits="1" branch="false" />
                 <line number="99" hits="1" branch="false" />
                 <line number="100" hits="1" branch="false" />
+                <line number="101" hits="1" branch="false" />
+                <line number="102" hits="1" branch="false" />
               </lines>
             </method>
             <method name="TestAktivnosti" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="104" hits="1" branch="false" />
-                <line number="105" hits="1" branch="false" />
                 <line number="106" hits="1" branch="false" />
                 <line number="107" hits="1" branch="false" />
                 <line number="108" hits="1" branch="false" />
+                <line number="109" hits="1" branch="false" />
+                <line number="110" hits="1" branch="false" />
               </lines>
             </method>
             <method name="TestPromet" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="112" hits="1" branch="false" />
-                <line number="113" hits="1" branch="false" />
                 <line number="114" hits="1" branch="false" />
+                <line number="115" hits="1" branch="false" />
+                <line number="116" hits="1" branch="false" />
               </lines>
             </method>
             <method name="TestSifraProizvoda" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="122" hits="1" branch="false" />
-                <line number="123" hits="1" branch="false" />
                 <line number="124" hits="1" branch="false" />
+                <line number="125" hits="1" branch="false" />
+                <line number="126" hits="1" branch="false" />
               </lines>
             </method>
             <method name="TestKolicina" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="128" hits="1" branch="false" />
-                <line number="129" hits="1" branch="false" />
                 <line number="130" hits="1" branch="false" />
                 <line number="131" hits="1" branch="false" />
                 <line number="132" hits="1" branch="false" />
+                <line number="133" hits="1" branch="false" />
+                <line number="134" hits="1" branch="false" />
               </lines>
             </method>
             <method name="TestOcekivanaKolicina" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="136" hits="1" branch="false" />
-                <line number="137" hits="1" branch="false" />
                 <line number="138" hits="1" branch="false" />
+                <line number="139" hits="1" branch="false" />
+                <line number="140" hits="1" branch="false" />
               </lines>
             </method>
             <method name="TestDatumPristizanja" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="142" hits="1" branch="false" />
-                <line number="143" hits="1" branch="false" />
                 <line number="144" hits="1" branch="false" />
                 <line number="145" hits="1" branch="false" />
+                <line number="146" hits="1" branch="false" />
+                <line number="147" hits="1" branch="false" />
               </lines>
             </method>
             <method name="TestDatumOcekivaneKolicine" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="149" hits="1" branch="false" />
-                <line number="150" hits="1" branch="false" />
                 <line number="151" hits="1" branch="false" />
                 <line number="152" hits="1" branch="false" />
                 <line number="153" hits="1" branch="false" />
+                <line number="154" hits="1" branch="false" />
+                <line number="155" hits="1" branch="false" />
               </lines>
             </method>
             <method name="TestCertifikat387" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="157" hits="1" branch="false" />
-                <line number="158" hits="1" branch="false" />
                 <line number="159" hits="1" branch="false" />
                 <line number="160" hits="1" branch="false" />
+                <line number="161" hits="1" branch="false" />
+                <line number="162" hits="1" branch="false" />
               </lines>
             </method>
             <method name="TestNarucikolicinu" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="164" hits="1" branch="false" />
-                <line number="165" hits="1" branch="false" />
                 <line number="166" hits="1" branch="false" />
                 <line number="167" hits="1" branch="false" />
                 <line number="168" hits="1" branch="false" />
                 <line number="169" hits="1" branch="false" />
+                <line number="170" hits="1" branch="false" />
+                <line number="171" hits="1" branch="false" />
               </lines>
             </method>
             <method name="TestProdavaci" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="175" hits="1" branch="false" />
-                <line number="176" hits="1" branch="false" />
                 <line number="177" hits="1" branch="false" />
                 <line number="178" hits="1" branch="false" />
+                <line number="179" hits="1" branch="false" />
+                <line number="180" hits="1" branch="false" />
               </lines>
             </method>
             <method name="TestStandovi" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="182" hits="1" branch="false" />
-                <line number="183" hits="1" branch="false" />
                 <line number="184" hits="1" branch="false" />
                 <line number="185" hits="1" branch="false" />
                 <line number="186" hits="1" branch="false" />
                 <line number="187" hits="1" branch="false" />
                 <line number="188" hits="1" branch="false" />
                 <line number="189" hits="1" branch="false" />
+                <line number="190" hits="1" branch="false" />
+                <line number="191" hits="1" branch="false" />
               </lines>
             </method>
             <method name="TestUkupniPromet" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="193" hits="1" branch="false" />
-                <line number="194" hits="1" branch="false" />
                 <line number="195" hits="1" branch="false" />
+                <line number="196" hits="1" branch="false" />
+                <line number="197" hits="1" branch="false" />
               </lines>
             </method>
             <method name="TestIzmjenaProdavaca" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="199" hits="1" branch="false" />
-                <line number="200" hits="1" branch="false" />
                 <line number="201" hits="1" branch="false" />
                 <line number="202" hits="1" branch="false" />
                 <line number="203" hits="1" branch="false" />
                 <line number="204" hits="1" branch="false" />
                 <line number="205" hits="1" branch="false" />
+                <line number="206" hits="1" branch="false" />
+                <line number="207" hits="1" branch="false" />
               </lines>
             </method>
             <method name="TestIzvrsavanjeKupovina" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="209" hits="1" branch="false" />
-                <line number="210" hits="1" branch="false" />
                 <line number="211" hits="1" branch="false" />
                 <line number="212" hits="1" branch="false" />
                 <line number="213" hits="1" branch="false" />
+                <line number="214" hits="1" branch="false" />
                 <line number="215" hits="1" branch="false" />
-                <line number="216" hits="1" branch="false" />
                 <line number="217" hits="1" branch="false" />
+                <line number="218" hits="1" branch="false" />
                 <line number="219" hits="1" branch="false" />
-                <line number="220" hits="1" branch="false" />
+                <line number="221" hits="1" branch="false" />
                 <line number="222" hits="1" branch="false" />
                 <line number="224" hits="1" branch="false" />
-                <line number="225" hits="1" branch="false" />
                 <line number="226" hits="1" branch="false" />
                 <line number="227" hits="1" branch="false" />
                 <line number="228" hits="1" branch="false" />
+                <line number="229" hits="1" branch="false" />
+                <line number="230" hits="1" branch="false" />
               </lines>
             </method>
             <method name="TestDodavanjaTipskogVoca" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="232" hits="1" branch="false" />
-                <line number="233" hits="1" branch="false" />
                 <line number="234" hits="1" branch="false" />
                 <line number="235" hits="1" branch="false" />
                 <line number="236" hits="1" branch="false" />
+                <line number="237" hits="1" branch="false" />
                 <line number="238" hits="1" branch="false" />
                 <line number="240" hits="1" branch="false" />
-                <line number="241" hits="1" branch="false" />
                 <line number="242" hits="1" branch="false" />
+                <line number="243" hits="1" branch="false" />
                 <line number="244" hits="1" branch="false" />
                 <line number="246" hits="1" branch="false" />
-                <line number="247" hits="1" branch="false" />
-                <line number="250" hits="1" branch="false" />
-                <line number="251" hits="1" branch="false" />
+                <line number="248" hits="1" branch="false" />
+                <line number="249" hits="1" branch="false" />
                 <line number="252" hits="1" branch="false" />
                 <line number="253" hits="1" branch="false" />
+                <line number="254" hits="1" branch="false" />
+                <line number="255" hits="1" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="18" hits="23" branch="false" />
-            <line number="19" hits="23" branch="false" />
             <line number="20" hits="23" branch="false" />
             <line number="21" hits="23" branch="false" />
             <line number="22" hits="23" branch="false" />
-            <line number="27" hits="1" branch="false" />
-            <line number="28" hits="1" branch="false" />
+            <line number="23" hits="23" branch="false" />
+            <line number="24" hits="23" branch="false" />
             <line number="29" hits="1" branch="false" />
             <line number="30" hits="1" branch="false" />
             <line number="31" hits="1" branch="false" />
-            <line number="35" hits="1" branch="false" />
-            <line number="36" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
             <line number="37" hits="1" branch="false" />
             <line number="38" hits="1" branch="false" />
             <line number="39" hits="1" branch="false" />
             <line number="40" hits="1" branch="false" />
             <line number="41" hits="1" branch="false" />
             <line number="42" hits="1" branch="false" />
-            <line number="50" hits="1" branch="false" />
-            <line number="51" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
             <line number="52" hits="1" branch="false" />
             <line number="53" hits="1" branch="false" />
             <line number="54" hits="1" branch="false" />
-            <line number="58" hits="1" branch="false" />
-            <line number="59" hits="1" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
             <line number="60" hits="1" branch="false" />
             <line number="61" hits="1" branch="false" />
             <line number="62" hits="1" branch="false" />
-            <line number="66" hits="1" branch="false" />
-            <line number="67" hits="1" branch="false" />
+            <line number="63" hits="1" branch="false" />
+            <line number="64" hits="1" branch="false" />
             <line number="68" hits="1" branch="false" />
             <line number="69" hits="1" branch="false" />
             <line number="70" hits="1" branch="false" />
-            <line number="74" hits="1" branch="false" />
-            <line number="75" hits="1" branch="false" />
+            <line number="71" hits="1" branch="false" />
+            <line number="72" hits="1" branch="false" />
             <line number="76" hits="1" branch="false" />
             <line number="77" hits="1" branch="false" />
             <line number="78" hits="1" branch="false" />
-            <line number="82" hits="1" branch="false" />
-            <line number="83" hits="1" branch="false" />
+            <line number="79" hits="1" branch="false" />
+            <line number="80" hits="1" branch="false" />
             <line number="84" hits="1" branch="false" />
             <line number="85" hits="1" branch="false" />
+            <line number="86" hits="1" branch="false" />
             <line number="87" hits="1" branch="false" />
-            <line number="88" hits="1" branch="false" />
             <line number="89" hits="1" branch="false" />
             <line number="90" hits="1" branch="false" />
-            <line number="97" hits="1" branch="false" />
-            <line number="98" hits="1" branch="false" />
+            <line number="91" hits="1" branch="false" />
+            <line number="92" hits="1" branch="false" />
             <line number="99" hits="1" branch="false" />
             <line number="100" hits="1" branch="false" />
-            <line number="104" hits="1" branch="false" />
-            <line number="105" hits="1" branch="false" />
+            <line number="101" hits="1" branch="false" />
+            <line number="102" hits="1" branch="false" />
             <line number="106" hits="1" branch="false" />
             <line number="107" hits="1" branch="false" />
             <line number="108" hits="1" branch="false" />
-            <line number="112" hits="1" branch="false" />
-            <line number="113" hits="1" branch="false" />
+            <line number="109" hits="1" branch="false" />
+            <line number="110" hits="1" branch="false" />
             <line number="114" hits="1" branch="false" />
-            <line number="122" hits="1" branch="false" />
-            <line number="123" hits="1" branch="false" />
+            <line number="115" hits="1" branch="false" />
+            <line number="116" hits="1" branch="false" />
             <line number="124" hits="1" branch="false" />
-            <line number="128" hits="1" branch="false" />
-            <line number="129" hits="1" branch="false" />
+            <line number="125" hits="1" branch="false" />
+            <line number="126" hits="1" branch="false" />
             <line number="130" hits="1" branch="false" />
             <line number="131" hits="1" branch="false" />
             <line number="132" hits="1" branch="false" />
-            <line number="136" hits="1" branch="false" />
-            <line number="137" hits="1" branch="false" />
+            <line number="133" hits="1" branch="false" />
+            <line number="134" hits="1" branch="false" />
             <line number="138" hits="1" branch="false" />
-            <line number="142" hits="1" branch="false" />
-            <line number="143" hits="1" branch="false" />
+            <line number="139" hits="1" branch="false" />
+            <line number="140" hits="1" branch="false" />
             <line number="144" hits="1" branch="false" />
             <line number="145" hits="1" branch="false" />
-            <line number="149" hits="1" branch="false" />
-            <line number="150" hits="1" branch="false" />
+            <line number="146" hits="1" branch="false" />
+            <line number="147" hits="1" branch="false" />
             <line number="151" hits="1" branch="false" />
             <line number="152" hits="1" branch="false" />
             <line number="153" hits="1" branch="false" />
-            <line number="157" hits="1" branch="false" />
-            <line number="158" hits="1" branch="false" />
+            <line number="154" hits="1" branch="false" />
+            <line number="155" hits="1" branch="false" />
             <line number="159" hits="1" branch="false" />
             <line number="160" hits="1" branch="false" />
-            <line number="164" hits="1" branch="false" />
-            <line number="165" hits="1" branch="false" />
+            <line number="161" hits="1" branch="false" />
+            <line number="162" hits="1" branch="false" />
             <line number="166" hits="1" branch="false" />
             <line number="167" hits="1" branch="false" />
             <line number="168" hits="1" branch="false" />
             <line number="169" hits="1" branch="false" />
-            <line number="175" hits="1" branch="false" />
-            <line number="176" hits="1" branch="false" />
+            <line number="170" hits="1" branch="false" />
+            <line number="171" hits="1" branch="false" />
             <line number="177" hits="1" branch="false" />
             <line number="178" hits="1" branch="false" />
-            <line number="182" hits="1" branch="false" />
-            <line number="183" hits="1" branch="false" />
+            <line number="179" hits="1" branch="false" />
+            <line number="180" hits="1" branch="false" />
             <line number="184" hits="1" branch="false" />
             <line number="185" hits="1" branch="false" />
             <line number="186" hits="1" branch="false" />
             <line number="187" hits="1" branch="false" />
             <line number="188" hits="1" branch="false" />
             <line number="189" hits="1" branch="false" />
-            <line number="193" hits="1" branch="false" />
-            <line number="194" hits="1" branch="false" />
+            <line number="190" hits="1" branch="false" />
+            <line number="191" hits="1" branch="false" />
             <line number="195" hits="1" branch="false" />
-            <line number="199" hits="1" branch="false" />
-            <line number="200" hits="1" branch="false" />
+            <line number="196" hits="1" branch="false" />
+            <line number="197" hits="1" branch="false" />
             <line number="201" hits="1" branch="false" />
             <line number="202" hits="1" branch="false" />
             <line number="203" hits="1" branch="false" />
             <line number="204" hits="1" branch="false" />
             <line number="205" hits="1" branch="false" />
-            <line number="209" hits="1" branch="false" />
-            <line number="210" hits="1" branch="false" />
+            <line number="206" hits="1" branch="false" />
+            <line number="207" hits="1" branch="false" />
             <line number="211" hits="1" branch="false" />
             <line number="212" hits="1" branch="false" />
             <line number="213" hits="1" branch="false" />
+            <line number="214" hits="1" branch="false" />
             <line number="215" hits="1" branch="false" />
-            <line number="216" hits="1" branch="false" />
             <line number="217" hits="1" branch="false" />
+            <line number="218" hits="1" branch="false" />
             <line number="219" hits="1" branch="false" />
-            <line number="220" hits="1" branch="false" />
+            <line number="221" hits="1" branch="false" />
             <line number="222" hits="1" branch="false" />
             <line number="224" hits="1" branch="false" />
-            <line number="225" hits="1" branch="false" />
             <line number="226" hits="1" branch="false" />
             <line number="227" hits="1" branch="false" />
             <line number="228" hits="1" branch="false" />
-            <line number="232" hits="1" branch="false" />
-            <line number="233" hits="1" branch="false" />
+            <line number="229" hits="1" branch="false" />
+            <line number="230" hits="1" branch="false" />
             <line number="234" hits="1" branch="false" />
             <line number="235" hits="1" branch="false" />
             <line number="236" hits="1" branch="false" />
+            <line number="237" hits="1" branch="false" />
             <line number="238" hits="1" branch="false" />
             <line number="240" hits="1" branch="false" />
-            <line number="241" hits="1" branch="false" />
             <line number="242" hits="1" branch="false" />
+            <line number="243" hits="1" branch="false" />
             <line number="244" hits="1" branch="false" />
             <line number="246" hits="1" branch="false" />
-            <line number="247" hits="1" branch="false" />
-            <line number="250" hits="1" branch="false" />
-            <line number="251" hits="1" branch="false" />
+            <line number="248" hits="1" branch="false" />
+            <line number="249" hits="1" branch="false" />
             <line number="252" hits="1" branch="false" />
             <line number="253" hits="1" branch="false" />
+            <line number="254" hits="1" branch="false" />
+            <line number="255" hits="1" branch="false" />
           </lines>
         </class>
       </classes>

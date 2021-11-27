@@ -4,6 +4,7 @@ using System;
 
 namespace Zadatak1
 {
+    //Armin Hadzic
     [TestClass]
     public class ProdavacTest
     {
