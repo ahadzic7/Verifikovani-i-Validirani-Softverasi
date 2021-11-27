@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7G8H63yms6aaF5dKh4RZmRfxQMc4o+0MYmNke5+/M22wRPwcyq8DWyTiB61nk0TLIMEzcEduBfm2mwY7Hxgg9A==",
+  "dgSpecHash": "LxG7OfVRaCp1swVf5j/rJt1khTuhtV8q6vSedgJ3MrBnesU91ZrN1CAQ9zP5JfpBo5KqySjIeDUs5jpbvQVEuA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\Grupa-3-Verifikovani-i-Validirani-Softverasi\\Pijaca\\Zadatak3\\Zadatak3.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\zadaca2VVS\\Pijaca\\Zadatak3\\Zadatak3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

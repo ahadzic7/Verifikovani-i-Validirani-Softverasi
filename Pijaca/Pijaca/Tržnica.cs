@@ -73,7 +73,7 @@ namespace Pijaca
             Štand štand = new Štand(p, rok, pr);
             štandovi.Add(štand);
         }
-
+        /// Implementirao Ahmed Mahovac
         /// <summary>
         /// Metoda koja zatvara sve štandove čiji prodavači nemaju aktivan promet.
         /// Potrebno je pronaći sve prodavače koji nisu aktivni i sve njihove štandove,
@@ -87,7 +87,11 @@ namespace Pijaca
         /// </summary>
         public void ZatvoriSveNeaktivneŠtandove()
         {
-            throw new NotImplementedException();
+            if (štandovi.Count == 0 || prodavači.Count == 0) return;
+            štandovi.RemoveAll(item =>
+            {
+                return (!item.Prodavač.Aktivnost && item.Prodavač.UkupniPromet <= 100000) || item.KrajZakupa < DateTime.Now;
+            });
         }
 
         public void IzvršavanjeKupovina(Štand š, List<Kupovina> kupovine, string sigurnosniKod)
