@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Prodavaci>
+	<Prodavac>
+		<ime>Ahmed</ime>
+		<sifra>abc</sifra>
+		<otvaranje>01/02/2022</otvaranje>
+		<promet>20.0</promet>
+	</Prodavac>
+	<Prodavac>
+		<ime>A</ime>
+		<sifra>abc3131</sifra>
+		<otvaranje>01/02/2022</otvaranje>
+		<promet>2.0</promet>
+	</Prodavac>
+	<Prodavac>
+		<ime>Ahmed32e23</ime>
+		<sifra>abc32323</sifra>
+		<otvaranje>01/02/2022</otvaranje>
+		<promet>200.0</promet>
+	</Prodavac>
+</Prodavaci>
