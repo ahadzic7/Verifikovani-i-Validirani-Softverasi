@@ -172,7 +172,9 @@ namespace Pijaca
 
         public void NaručiProizvode(Štand štand, List<Proizvod> proizvodi, List<int> količine, List<DateTime> rokovi, bool svi = false)
         {
-            if (proizvodi.Count != količine.Count || proizvodi.Count != rokovi.Count)
+            if (proizvodi.Count != količine.Count)
+                throw new ArgumentException("Pogrešan unos parametara!");
+            if (proizvodi.Count != rokovi.Count)
                 throw new ArgumentException("Pogrešan unos parametara!");
 
             for (int i = 0; i < proizvodi.Count; i++)

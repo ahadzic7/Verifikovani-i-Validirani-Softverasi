@@ -243,6 +243,8 @@ namespace Zadatak3
             },
                 "Pogrešan unos parametara!");
 
+
+
             Assert.ThrowsException<ArgumentException>(() =>
             {
                 Prodavač p1 = new Prodavač("ime", "sifra", new DateTime(2021, 5, 1, 8, 30, 52), 0);
@@ -256,9 +258,11 @@ namespace Zadatak3
                 Prodavač p1 = new Prodavač("ime", "sifra", new DateTime(2021, 5, 1, 8, 30, 52), 0);
                 Proizvod p = new Proizvod(Namirnica.Voće, "ananas", 49, DateTime.Now, 5, false);
                 Štand stand = new Štand(p1, DateTime.Now.AddDays(25));
-                pijaca.NaručiProizvode(stand, new List<Proizvod> { p }, new List<int> { 100, 5 }, new List<DateTime> { DateTime.Now.AddDays(5) });
+                pijaca.NaručiProizvode(stand, new List<Proizvod> { p }, new List<int> { 100 }, new List<DateTime> { DateTime.Now.AddDays(5) });
             },
                 "Nemoguće naručiti proizvod - nije registrovan na štandu!");
+
+
         }
 
         #endregion
