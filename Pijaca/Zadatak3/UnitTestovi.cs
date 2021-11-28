@@ -253,6 +253,31 @@ namespace Zadatak3
             Assert.IsTrue(pijaca.Štandovi[0].Proizvodi[1].Ime == "Šljiva");
             Assert.IsTrue(pijaca.Štandovi[0].Proizvodi[2].Ime == "Narandža");
         }
+
+        [TestMethod]
+        public void TestSamoJedanNarucivanje() {
+            Prodavač p1 = new Prodavač("ime", "sifra", new DateTime(2021, 5, 1, 8, 30, 52), 0);
+            Proizvod p = new Proizvod(Namirnica.Voće, "ananas", 49, DateTime.Now, 5, false);
+            Štand stand = new Štand(p1, DateTime.Now.AddDays(25), new List<Proizvod> { p, proizvod });
+            
+            pijaca.NaručiProizvode(stand, new List<Proizvod> { p, proizvod }, new List<int> { 5, 2 }, new List<DateTime> { DateTime.Now.AddDays(5), DateTime.Now.AddDays(2) });
+            Assert.IsTrue(p.OčekivanaKoličina == 5);
+            Assert.IsTrue(proizvod.OčekivanaKoličina == 2);
+        }
+
+        [TestMethod]
+        public void TestSviNarucivanje()
+        {
+            Prodavač p1 = new Prodavač("ime", "sifra", new DateTime(2021, 5, 1, 8, 30, 52), 0);
+            Proizvod p = new Proizvod(Namirnica.Voće, "ananas", 49, DateTime.Now, 5, false);
+            Štand stand = new Štand(p1, DateTime.Now.AddDays(25), new List<Proizvod> { p, proizvod });
+            pijaca.RadSaProdavačima(p1, "Dodavanje");
+            pijaca.OtvoriŠtand(p1, new List<Proizvod> { p, proizvod }, DateTime.Now.AddDays(5));
+
+            pijaca.NaručiProizvode(stand, new List<Proizvod> { p, proizvod }, new List<int> { 5, 2 }, new List<DateTime> { DateTime.Now.AddDays(5), DateTime.Now.AddDays(2) }, true);
+            Assert.IsTrue(p.OčekivanaKoličina == 5);
+            Assert.IsTrue(proizvod.OčekivanaKoličina == 2);
+        }
         //Do ovdje (Muris)
         #endregion
     }

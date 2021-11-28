@@ -314,3 +314,8 @@ C:\Users\Armin\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pij
 C:\Users\Armin\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Zadatak3\bin\Debug\net5.0\PodaciNeispravniProdavac.csv
 C:\Users\Armin\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Zadatak3\bin\Debug\net5.0\PodaciNeispravniProizvod.xml
 C:\Users\Armin\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Zadatak3\bin\Debug\net5.0\CsvHelper.dll
+C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Zadatak3\bin\Debug\net5.0\PodaciIspravniProdavac.xml
+C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Zadatak3\bin\Debug\net5.0\PodaciIspravniProizvod.csv
+C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Zadatak3\bin\Debug\net5.0\PodaciNeispravniProdavac.csv
+C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Zadatak3\bin\Debug\net5.0\PodaciNeispravniProizvod.xml
+C:\Users\User\Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Zadatak3\bin\Debug\net5.0\CsvHelper.dll
