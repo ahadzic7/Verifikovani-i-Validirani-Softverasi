@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.8925" branch-rate="0.7177" version="1.9" timestamp="1638038023" lines-covered="548" lines-valid="614" branches-covered="89" branches-valid="124">
+<coverage line-rate="0.8948999999999999" branch-rate="0.7343000000000001" version="1.9" timestamp="1638100647" lines-covered="554" lines-valid="619" branches-covered="94" branches-valid="128">
   <sources>
-    <source>C:\Users\User\</source>
+    <source>C:\Users\Armin\</source>
   </sources>
   <packages>
-    <package name="Pijaca" line-rate="0.8212999999999999" branch-rate="0.7177" complexity="157">
+    <package name="Pijaca" line-rate="0.8277" branch-rate="0.7343000000000001" complexity="161">
       <classes>
         <class name="Pijaca.Inspekcija" filename="Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Inspekcija.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
@@ -60,7 +60,7 @@
             </method>
             <method name="get_DatumKupovine" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="26" hits="9" branch="False" />
+                <line number="26" hits="10" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(Pijaca.Proizvod,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
@@ -81,7 +81,7 @@
             <line number="23" hits="1" branch="False" />
             <line number="24" hits="3" branch="False" />
             <line number="25" hits="1" branch="False" />
-            <line number="26" hits="9" branch="False" />
+            <line number="26" hits="10" branch="False" />
             <line number="32" hits="8" branch="False" />
             <line number="33" hits="8" branch="False" />
             <line number="34" hits="8" branch="False" />
@@ -276,7 +276,7 @@
             <line number="60" hits="54" branch="False" />
           </lines>
         </class>
-        <class name="Pijaca.Proizvod" filename="Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Proizvod.cs" line-rate="1" branch-rate="1" complexity="40">
+        <class name="Pijaca.Proizvod" filename="Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Proizvod.cs" line-rate="1" branch-rate="1" complexity="44">
           <methods>
             <method name="get_VrstaNamirnice" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -450,31 +450,44 @@
                 <line number="123" hits="60" branch="False" />
               </lines>
             </method>
-            <method name="GenerišiŠifru" signature="(System.Boolean)" line-rate="1" branch-rate="1" complexity="2">
+            <method name="GenerišiŠifru" signature="(System.Boolean)" line-rate="1" branch-rate="1" complexity="6">
               <lines>
                 <line number="159" hits="60" branch="False" />
-                <line number="160" hits="120" branch="False" />
+                <line number="160" hits="60" branch="False" />
                 <line number="162" hits="60" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
-                    <condition number="8" type="jump" coverage="100%" />
+                    <condition number="6" type="jump" coverage="100%" />
                   </conditions>
                 </line>
                 <line number="163" hits="55" branch="False" />
                 <line number="165" hits="5" branch="False" />
                 <line number="167" hits="60" branch="False" />
-                <line number="168" hits="60" branch="False" />
-                <line number="170" hits="60" branch="False" />
-                <line number="172" hits="60" branch="False" />
-                <line number="174" hits="60" branch="False" />
-                <line number="175" hits="60" branch="False" />
+                <line number="169" hits="60" branch="False" />
+                <line number="170" hits="1200" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="116" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="171" hits="540" branch="False" />
+                <line number="172" hits="540" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="79" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="173" hits="420" branch="False" />
+                <line number="174" hits="540" branch="False" />
+                <line number="176" hits="60" branch="False" />
+                <line number="178" hits="60" branch="False" />
+                <line number="180" hits="60" branch="False" />
+                <line number="181" hits="60" branch="False" />
               </lines>
             </method>
             <method name="NaručiKoličinu" signature="(System.Int32,System.DateTime)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="178" hits="1" branch="False" />
-                <line number="179" hits="1" branch="False" />
-                <line number="180" hits="1" branch="False" />
-                <line number="181" hits="1" branch="False" />
+                <line number="184" hits="1" branch="False" />
+                <line number="185" hits="1" branch="False" />
+                <line number="186" hits="1" branch="False" />
+                <line number="187" hits="1" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(Pijaca.Namirnica,System.String,System.Int32,System.DateTime,System.Double,System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
@@ -608,24 +621,37 @@
             <line number="122" hits="5" branch="False" />
             <line number="123" hits="60" branch="False" />
             <line number="159" hits="60" branch="False" />
-            <line number="160" hits="120" branch="False" />
+            <line number="160" hits="60" branch="False" />
             <line number="162" hits="60" branch="True" condition-coverage="100% (2/2)">
               <conditions>
-                <condition number="8" type="jump" coverage="100%" />
+                <condition number="6" type="jump" coverage="100%" />
               </conditions>
             </line>
             <line number="163" hits="55" branch="False" />
             <line number="165" hits="5" branch="False" />
             <line number="167" hits="60" branch="False" />
-            <line number="168" hits="60" branch="False" />
-            <line number="170" hits="60" branch="False" />
-            <line number="172" hits="60" branch="False" />
-            <line number="174" hits="60" branch="False" />
-            <line number="175" hits="60" branch="False" />
-            <line number="178" hits="1" branch="False" />
-            <line number="179" hits="1" branch="False" />
-            <line number="180" hits="1" branch="False" />
-            <line number="181" hits="1" branch="False" />
+            <line number="169" hits="60" branch="False" />
+            <line number="170" hits="1200" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="116" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="171" hits="540" branch="False" />
+            <line number="172" hits="540" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="79" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="173" hits="420" branch="False" />
+            <line number="174" hits="540" branch="False" />
+            <line number="176" hits="60" branch="False" />
+            <line number="178" hits="60" branch="False" />
+            <line number="180" hits="60" branch="False" />
+            <line number="181" hits="60" branch="False" />
+            <line number="184" hits="1" branch="False" />
+            <line number="185" hits="1" branch="False" />
+            <line number="186" hits="1" branch="False" />
+            <line number="187" hits="1" branch="False" />
             <line number="130" hits="60" branch="False" />
             <line number="131" hits="60" branch="False" />
             <line number="132" hits="60" branch="False" />
@@ -640,7 +666,7 @@
             <line number="19" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="Pijaca.Tržnica" filename="Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Tržnica.cs" line-rate="0.6544" branch-rate="0.5694" complexity="76">
+        <class name="Pijaca.Tržnica" filename="Documents\GitHub\Grupa-3-Verifikovani-i-Validirani-Softverasi\Pijaca\Pijaca\Tržnica.cs" line-rate="0.6617000000000001" branch-rate="0.5832999999999999" complexity="76">
           <methods>
             <method name="get_Prodavači" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -749,7 +775,7 @@
                 <line number="95" hits="0" branch="False" />
               </lines>
             </method>
-            <method name="IzvršavanjeKupovina" signature="(Pijaca.Štand,System.Collections.Generic.List`1&lt;Pijaca.Kupovina&gt;,System.String)" line-rate="0.8887999999999999" branch-rate="0.75" complexity="8">
+            <method name="IzvršavanjeKupovina" signature="(Pijaca.Štand,System.Collections.Generic.List`1&lt;Pijaca.Kupovina&gt;,System.String)" line-rate="0.9444" branch-rate="0.875" complexity="8">
               <lines>
                 <line number="98" hits="2" branch="False" />
                 <line number="99" hits="3" branch="False" />
@@ -773,12 +799,12 @@
                   </conditions>
                 </line>
                 <line number="109" hits="0" branch="False" />
-                <line number="110" hits="2" branch="True" condition-coverage="50% (1/2)">
+                <line number="110" hits="2" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
-                    <condition number="161" type="jump" coverage="50%" />
+                    <condition number="161" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="111" hits="0" branch="False" />
+                <line number="111" hits="1" branch="False" />
                 <line number="112" hits="2" branch="False" />
                 <line number="114" hits="2" branch="False" />
                 <line number="115" hits="2" branch="False" />
@@ -1061,12 +1087,12 @@
               </conditions>
             </line>
             <line number="109" hits="0" branch="False" />
-            <line number="110" hits="2" branch="True" condition-coverage="50% (1/2)">
+            <line number="110" hits="2" branch="True" condition-coverage="100% (2/2)">
               <conditions>
-                <condition number="161" type="jump" coverage="50%" />
+                <condition number="161" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="111" hits="0" branch="False" />
+            <line number="111" hits="1" branch="False" />
             <line number="112" hits="2" branch="False" />
             <line number="114" hits="2" branch="False" />
             <line number="115" hits="2" branch="False" />

@@ -157,17 +157,23 @@ namespace Pijaca
         /// <returns></returns>
         public string GenerišiŠifru(bool domaći)
         {
-            int suma = 0, sifraDrzave = 0;
+            int sifraDrzave = 0;
 
             if (domaći)
                 sifraDrzave = 387;
             else
                 sifraDrzave = 111;
 
-            suma += sifraDrzave;
-            suma += brojač;
+            int suma = 0;
 
-            string sifra = sifraDrzave.ToString() + "-" + brojač.ToString() + "-" + (suma % 10).ToString();
+            string sifra = sifraDrzave.ToString() + "-" + brojač.ToString() + "-";
+            for (int i = 0; i < sifra.Length; i++)
+            {
+                if (sifra[i] != '-')
+                    suma += sifra[i] - '0';
+            }
+
+            sifra += (suma % 10).ToString();
 
             brojač++;
 

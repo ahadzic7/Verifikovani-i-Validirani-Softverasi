@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\zadaca2VVSv2\\Pijaca\\Zadatak1\\Zadatak1.csproj": {}
+    "C:\\Users\\Armin\\Documents\\GitHub\\Grupa-3-Verifikovani-i-Validirani-Softverasi\\Pijaca\\Zadatak1\\Zadatak1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\zadaca2VVSv2\\Pijaca\\Pijaca\\Pijaca.csproj": {
+    "C:\\Users\\Armin\\Documents\\GitHub\\Grupa-3-Verifikovani-i-Validirani-Softverasi\\Pijaca\\Pijaca\\Pijaca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\zadaca2VVSv2\\Pijaca\\Pijaca\\Pijaca.csproj",
+        "projectUniqueName": "C:\\Users\\Armin\\Documents\\GitHub\\Grupa-3-Verifikovani-i-Validirani-Softverasi\\Pijaca\\Pijaca\\Pijaca.csproj",
         "projectName": "Pijaca",
-        "projectPath": "C:\\Users\\User\\Desktop\\zadaca2VVSv2\\Pijaca\\Pijaca\\Pijaca.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\zadaca2VVSv2\\Pijaca\\Pijaca\\obj\\",
+        "projectPath": "C:\\Users\\Armin\\Documents\\GitHub\\Grupa-3-Verifikovani-i-Validirani-Softverasi\\Pijaca\\Pijaca\\Pijaca.csproj",
+        "packagesPath": "C:\\Users\\Armin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Armin\\Documents\\GitHub\\Grupa-3-Verifikovani-i-Validirani-Softverasi\\Pijaca\\Pijaca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Armin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,17 +58,17 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\zadaca2VVSv2\\Pijaca\\Zadatak1\\Zadatak1.csproj": {
+    "C:\\Users\\Armin\\Documents\\GitHub\\Grupa-3-Verifikovani-i-Validirani-Softverasi\\Pijaca\\Zadatak1\\Zadatak1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\zadaca2VVSv2\\Pijaca\\Zadatak1\\Zadatak1.csproj",
+        "projectUniqueName": "C:\\Users\\Armin\\Documents\\GitHub\\Grupa-3-Verifikovani-i-Validirani-Softverasi\\Pijaca\\Zadatak1\\Zadatak1.csproj",
         "projectName": "Zadatak1",
-        "projectPath": "C:\\Users\\User\\Desktop\\zadaca2VVSv2\\Pijaca\\Zadatak1\\Zadatak1.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\zadaca2VVSv2\\Pijaca\\Zadatak1\\obj\\",
+        "projectPath": "C:\\Users\\Armin\\Documents\\GitHub\\Grupa-3-Verifikovani-i-Validirani-Softverasi\\Pijaca\\Zadatak1\\Zadatak1.csproj",
+        "packagesPath": "C:\\Users\\Armin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Armin\\Documents\\GitHub\\Grupa-3-Verifikovani-i-Validirani-Softverasi\\Pijaca\\Zadatak1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Armin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +82,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\zadaca2VVSv2\\Pijaca\\Pijaca\\Pijaca.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\zadaca2VVSv2\\Pijaca\\Pijaca\\Pijaca.csproj"
+              "C:\\Users\\Armin\\Documents\\GitHub\\Grupa-3-Verifikovani-i-Validirani-Softverasi\\Pijaca\\Pijaca\\Pijaca.csproj": {
+                "projectPath": "C:\\Users\\Armin\\Documents\\GitHub\\Grupa-3-Verifikovani-i-Validirani-Softverasi\\Pijaca\\Pijaca\\Pijaca.csproj"
               }
             }
           }
