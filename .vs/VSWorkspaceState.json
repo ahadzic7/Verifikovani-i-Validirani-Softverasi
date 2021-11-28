@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Grupa 3",
+    "\\Grupa 3\\ZivotinjskaFarma",
+    "\\Pijaca\\Zadatak1"
   ],
-  "SelectedNode": "\\ZivotinjskaFarma.sln",
+  "SelectedNode": "\\Grupa 3\\ZivotinjskaFarma\\ZivotinjskaFarma.csproj",
   "PreviewInSolutionExplorer": false
 }
