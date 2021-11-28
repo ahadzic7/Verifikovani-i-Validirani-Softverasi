@@ -8,14 +8,11 @@ namespace Zadatak1
     [TestClass]
     public class ProizvodTest
     {
-        private static Proizvod pd, ps;
-        
-        [TestInitialize]
-        public void InicijalizacijaProizvoda()
-        {
-            pd = new Proizvod(Namirnica.Meso, "piletina", 2, DateTime.Now, 10.0, true);
-            ps = new Proizvod(Namirnica.Meso, "piletina", 2, DateTime.Now, 10.0, false);
-        }
+        private static Proizvod pd = new Proizvod(Namirnica.Meso, "piletina", 2, DateTime.Now, 10.0, true);
+        private static Proizvod ps = new Proizvod(Namirnica.Meso, "piletina", 2, DateTime.Now, 10.0, false);
+
+
+   
 
 
         [TestMethod]
@@ -43,29 +40,25 @@ namespace Zadatak1
             string sifra = proizvod.ŠifraProizvoda;
             Assert.IsNotNull(sifra);
             Assert.AreEqual(sifra.Substring(0, 3), "111");
-            int prviDioSifre = int.Parse("1111000");
+            int prviDioSifre = int.Parse("1111001");
             int sum = 0;
             while (prviDioSifre != 0)
             {
                 sum += prviDioSifre % 10;
                 prviDioSifre /= 10;
             }
-            sifra.Replace("-", String.Empty);
-            Console.WriteLine(sifra.Substring(sifra.Length - 1));
             Assert.AreEqual(int.Parse(sifra.Substring(sifra.Length - 1)), sum%10);
-            Assert.AreEqual("1000", sifra.Substring(4, 4));
+            Assert.AreEqual("1001", sifra.Substring(4, 4));
         }
         [TestMethod]
         public void test3BrojacSePovecava()
         {
-            Proizvod proizvod = ps;
+            Proizvod proizvod = pd;
             string sifra1 = proizvod.ŠifraProizvoda;
             proizvod = ps;
             string sifra2 = proizvod.ŠifraProizvoda;
             Assert.IsNotNull(sifra1);
             Assert.IsNotNull(sifra2);
-            sifra1.Replace("-", String.Empty);
-            sifra2.Replace("-", String.Empty);
             Assert.AreEqual(int.Parse(sifra2.Substring(4, 4)) - int.Parse(sifra1.Substring(4, 4)), 1);
         }
 
@@ -77,10 +70,22 @@ namespace Zadatak1
         string sifra2 = proizvod.GenerišiŠifru(false);
         Assert.IsNotNull(sifra1);
         Assert.IsNotNull(sifra2);
-        sifra1.Replace("-", String.Empty);
-        sifra2.Replace("-", String.Empty);
-        Assert.AreEqual(int.Parse(sifra2.Substring(4, 4)) - int.Parse(sifra1.Substring(4, 4)), 1);
     }
+
+
+        [TestMethod]
+        public void test5SvegaPomalo()
+        {
+            string sifraDomaca = pd.ŠifraProizvoda;
+            string sifraStrana = ps.ŠifraProizvoda;
+            StringAssert.StartsWith(sifraDomaca, "387");
+            StringAssert.StartsWith(sifraStrana, "111");
+            Assert.AreEqual(sifraDomaca[3], '-');
+            Assert.AreEqual(sifraStrana[3], '-');
+            Assert.AreEqual(sifraDomaca[8], '-');
+            Assert.AreEqual(sifraStrana[8], '-');
+        } 
+
 }
 
 }
