@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\zadaca2VVSv3\\Pijaca\\Zadatak3\\Zadatak3.csproj": {}
+    "C:\\Users\\User\\Desktop\\zadaca2VVSv4\\Pijaca\\Zadatak3\\Zadatak3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\zadaca2VVSv3\\Pijaca\\Pijaca\\Pijaca.csproj": {
+    "C:\\Users\\User\\Desktop\\zadaca2VVSv4\\Pijaca\\Pijaca\\Pijaca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\zadaca2VVSv3\\Pijaca\\Pijaca\\Pijaca.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\zadaca2VVSv4\\Pijaca\\Pijaca\\Pijaca.csproj",
         "projectName": "Pijaca",
-        "projectPath": "C:\\Users\\User\\Desktop\\zadaca2VVSv3\\Pijaca\\Pijaca\\Pijaca.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\zadaca2VVSv4\\Pijaca\\Pijaca\\Pijaca.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\zadaca2VVSv3\\Pijaca\\Pijaca\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\zadaca2VVSv4\\Pijaca\\Pijaca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\zadaca2VVSv3\\Pijaca\\Zadatak3\\Zadatak3.csproj": {
+    "C:\\Users\\User\\Desktop\\zadaca2VVSv4\\Pijaca\\Zadatak3\\Zadatak3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\zadaca2VVSv3\\Pijaca\\Zadatak3\\Zadatak3.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\zadaca2VVSv4\\Pijaca\\Zadatak3\\Zadatak3.csproj",
         "projectName": "Zadatak3",
-        "projectPath": "C:\\Users\\User\\Desktop\\zadaca2VVSv3\\Pijaca\\Zadatak3\\Zadatak3.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\zadaca2VVSv4\\Pijaca\\Zadatak3\\Zadatak3.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\zadaca2VVSv3\\Pijaca\\Zadatak3\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\zadaca2VVSv4\\Pijaca\\Zadatak3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\zadaca2VVSv3\\Pijaca\\Pijaca\\Pijaca.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\zadaca2VVSv3\\Pijaca\\Pijaca\\Pijaca.csproj"
+              "C:\\Users\\User\\Desktop\\zadaca2VVSv4\\Pijaca\\Pijaca\\Pijaca.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\zadaca2VVSv4\\Pijaca\\Pijaca\\Pijaca.csproj"
               }
             }
           }

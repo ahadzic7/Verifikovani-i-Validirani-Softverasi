@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WjeCY/uJMsUgkGXZkDqHn3UZDYFPe+880aWubL1lPRjhX4C4THdqY2AN0fNlKyf62Psj1PRLhLSlVBGWOfXvyQ==",
+  "dgSpecHash": "3EHNs27Gl49qvkf+TBlURwy70XfF0FYAwrNQzrs1I6S0lgVql9eD7hpbBx4W4ZIFtjYfRIUL5v9sbgaAE1ZOvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\zadaca2VVSv3\\Pijaca\\Zadatak3\\Zadatak3.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\zadaca2VVSv4\\Pijaca\\Zadatak3\\Zadatak3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
