@@ -148,6 +148,28 @@ namespace Pijaca
             prodavač.RegistrujPromet(sigurnosniKod, ukupanPromet, najranijaKupovina, najkasnijaKupovina);
         }
 
+        /// <summary>
+        /// Refaktoring Muris Sladić 18613
+        /// </summary>
+
+        public void IzvršavanjeKupovinaRefaktor(Štand š, List<Kupovina> kupovine, string sigurnosniKod)
+        {
+            Štand štand = štandovi.Find(št => št.Prodavač == š.Prodavač);
+            if (štand == null)
+                throw new ArgumentException("Unijeli ste štand koji nije registrovan!");
+
+            DateTime najranijaKupovina = kupovine[0].DatumKupovine, najkasnijaKupovina = kupovine[0].DatumKupovine;
+            double ukupanPromet = 0;
+
+            najkasnijaKupovina = kupovine.OrderByDescending(x => x.DatumKupovine).First().DatumKupovine;
+            najranijaKupovina = kupovine.OrderByDescending(x => x.DatumKupovine).Last().DatumKupovine;
+            ukupanPromet = kupovine.Sum(x => x.UkupnaCijena);
+            kupovine.ForEach(kupovina => štand.RegistrujKupovinu(kupovina));
+
+           štand.Prodavač.RegistrujPromet(sigurnosniKod, ukupanPromet, najranijaKupovina, najkasnijaKupovina);
+        }
+
+
         public void NaručiProizvode(Štand štand, List<Proizvod> proizvodi, List<int> količine, List<DateTime> rokovi, bool svi = false)
         {
             if (proizvodi.Count != količine.Count || proizvodi.Count != rokovi.Count)
