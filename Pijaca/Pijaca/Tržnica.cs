@@ -11,8 +11,14 @@ namespace Pijaca
         #region Atributi
 
         List<Prodavač> prodavači;
+        
         List<Štand> štandovi;
         double ukupniPrometPijace;
+
+        public void setter(List<Prodavač> lista)
+        {
+            prodavači = lista;
+        }
 
         #endregion
 
