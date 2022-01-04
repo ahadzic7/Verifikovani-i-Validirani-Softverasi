@@ -42,7 +42,6 @@ namespace Pijaca
         #endregion
 
         #region Metode
-
         public void RadSaProdavačima(Prodavač p, string opcija, double najmanjiPromet)
         {
             if (p == null)
@@ -75,6 +74,175 @@ namespace Pijaca
                 else
                 {
                     prodavači.Remove(postojeći);
+                    if (opcija == "Izmjena")
+                        prodavači.Add(p);
+                }
+            }
+            else
+                throw new InvalidOperationException("Unijeli ste nepoznatu opciju!");
+        }
+
+        /// <summary>
+        /// CodeTuning Armin Hadzic 18667
+        /// </summary>
+
+        public void RadSaProdavačimaTuning1(Prodavač p, string opcija, double najmanjiPromet)
+        {
+            if (p == null)
+                throw new ArgumentNullException("Morate unijeti informacije o prodavaču!");
+
+            Prodavač postojeći = null;
+            var pIme = p.Ime;
+            var pUkupniPromet = p.UkupniPromet;
+            foreach (var prodavač in prodavači)
+            {
+                if (prodavač.Ime == pIme && prodavač.UkupniPromet == pUkupniPromet)
+                {
+                    postojeći = prodavač;
+                }
+            }
+            if (opcija == "Dodavanje")
+            {
+                if (postojeći == null || prodavači.FindAll(prod => prod.Ime == p.Ime).Count == 0)
+                    throw new InvalidOperationException("Nemoguće dodati prodavača kad već postoji registrovan!");
+                else
+                    prodavači.Add(p);
+            }
+            else if (opcija == "Izmjena" || opcija == "Brisanje")
+            {
+                if (postojeći == null || prodavači.FindAll(prod => prod.Ime == p.Ime).Count == 0)
+                    throw new FormatException("Nemoguće izmijeniti tj. obrisati prodavača koji nije registrovan!");
+                else
+                {
+                    prodavači.Remove(postojeći);
+                    if (opcija == "Izmjena")
+                        prodavači.Add(p);
+                }
+            }
+            else
+                throw new InvalidOperationException("Unijeli ste nepoznatu opciju!");
+        }
+
+        /// <summary>
+        /// CodeTuning Muris Sladic 18613
+        /// </summary>
+
+        public void RadSaProdavačimaTuning2(Prodavač p, string opcija, double najmanjiPromet)
+        {
+            if (p == null)
+                throw new ArgumentNullException("Morate unijeti informacije o prodavaču!");
+
+            Prodavač postojeći = null;
+            var pIme = p.Ime;
+            var pUkupniPromet = p.UkupniPromet;
+            var velicina = prodavači.Count;
+            var index = 0;
+
+            for (int i = 0; i < velicina; i += 4)
+            {
+                var prodavac = prodavači[i];
+                var prodavacIme = prodavac.Ime;
+                var prodavacUkupniPromet = prodavac.UkupniPromet;
+
+                if (prodavacIme == pIme && prodavacUkupniPromet == pUkupniPromet)
+                {
+                    postojeći = prodavac;
+                    index = i;
+                }
+                
+            }
+            if (opcija == "Dodavanje")
+            {
+                if (postojeći == null)
+                    throw new InvalidOperationException("Nemoguće dodati prodavača kad već postoji registrovan!");
+                else
+                    prodavači.Add(p);
+            }
+            else if (opcija == "Izmjena" || opcija == "Brisanje")
+            {
+                if (postojeći == null)
+                    throw new FormatException("Nemoguće izmijeniti tj. obrisati prodavača koji nije registrovan!");
+                else
+                {
+                    prodavači.RemoveAt(index);
+                    if (opcija == "Izmjena")
+                        prodavači.Add(p);
+                }
+            }
+            else
+                throw new InvalidOperationException("Unijeli ste nepoznatu opciju!");
+        }
+
+        /// <summary>
+        /// CodeTuning Ahmed Mahovac
+        /// </summary>
+
+        public void RadSaProdavačimaTuning3(Prodavač p, string opcija, double najmanjiPromet)
+        {
+            if (p == null)
+                throw new ArgumentNullException("Morate unijeti informacije o prodavaču!");
+
+            Prodavač postojeći = null;
+            var pIme = p.Ime;
+            var pUkupniPromet = p.UkupniPromet;
+            var velicina = prodavači.Count;
+            var index = 0;
+
+            for (int i = 0; i < velicina; i += 4)
+            {
+                var prodavac = prodavači[i];
+                var prodavacIme = prodavac.Ime;
+                var prodavacUkupniPromet = prodavac.UkupniPromet;
+
+                var prodavac1 = prodavači[i + 1];
+                var prodavacIme1 = prodavac1.Ime;
+                var prodavacUkupniPromet1 = prodavac1.UkupniPromet;
+
+                var prodavac2 = prodavači[i + 2];
+                var prodavacIme2 = prodavac2.Ime;
+                var prodavacUkupniPromet2 = prodavac2.UkupniPromet;
+
+                var prodavac3 = prodavači[i + 3];
+                var prodavacIme3 = prodavac3.Ime;
+                var prodavacUkupniPromet3 = prodavac3.UkupniPromet;
+
+                if (prodavacIme == pIme && prodavacUkupniPromet == pUkupniPromet)
+                {
+                    postojeći = prodavac;
+                    index = i;
+                }
+                else if (prodavacIme1 == pIme && prodavacUkupniPromet1 == pUkupniPromet)
+                {
+                    postojeći = prodavac1;
+                    index = i + 1;
+
+                }
+                else if (prodavacIme2 == pIme && prodavacUkupniPromet2 == pUkupniPromet)
+                {
+                    postojeći = prodavac2;
+                    index = i + 2;
+
+                }
+                else if (prodavacIme3 == pIme && prodavacUkupniPromet3 == pUkupniPromet)
+                {
+                    postojeći = prodavac3;
+                    index = i + 3;
+                }
+            }
+            if (opcija == "Dodavanje")
+            {
+                if (postojeći != null)
+                    throw new InvalidOperationException("Nemoguće dodati prodavača kad već postoji registrovan!");
+                else
+                    prodavači.Add(p);
+            }
+            else if (opcija == "Izmjena" || opcija == "Brisanje")
+            {
+                if (postojeći == null)
+                    throw new FormatException("Nemoguće izmijeniti tj. obrisati prodavača koji nije registrovan!");
+                else
+                {
+                    prodavači.RemoveAt(index);
                     if (opcija == "Izmjena")
                         prodavači.Add(p);
                 }

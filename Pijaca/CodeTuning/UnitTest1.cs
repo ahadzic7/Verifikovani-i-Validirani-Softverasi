@@ -8,35 +8,53 @@ namespace CodeTuning
     [TestClass]
     public class UnitTest1
     {
+        public static Tržnica trznica;
+        public static Prodavač trazeniProdavac;
+        public static int limit;
+
+        [ClassInitialize]
+        public static void priprema(TestContext tc)
+        {
+            trznica = new Tržnica();
+            List<Prodavač> pr = new List<Prodavač>();
+            limit = 5;
+            for (int i = 0; i < limit; i++)
+            {
+                pr.Add(new Prodavač("ime" + i.ToString(), "sifra", new DateTime(2021, 5, 1, 8, 30, 52), i));
+            }
+            trazeniProdavac = pr[limit - 1];
+
+            trznica.setter(pr);
+        }
+
         [TestMethod]
         public void TestMethod1()
         {
-            Tržnica t = new Tržnica();
-            List<Prodavač> pr = new List<Prodavač>();
-            Prodavač spasiMe = null;
-            var limit = 37_000_000;
-            for(int i = 0; i  < limit; i++)
-            {
-                Prodavač p = new Prodavač("ime" + i.ToString(), "sifra", new DateTime(2021, 5, 1, 8, 30, 52), i);
-                if(i == limit-1)
-                {
-                    spasiMe = p;
-                }
-                pr.Add(p);
-                /*if(i % 10_000_000 == 0)
-                {
-                    var f = 0;
-                }*/
-            }
+            string x = "Brakepoint1";
 
-            t.setter(pr);
+            trznica.RadSaProdavačimaTuning1(trazeniProdavac, "Izmjena", trazeniProdavac.UkupniPromet);
 
+            string y = "Brakepoint2";
+        }
 
-            var x = (0);
-//            Prodavač pro = new Prodavač("ime" + (499_999).ToString(), "sifra", new DateTime(2021, 5, 1, 8, 30, 52), 4_999_999);
-            t.RadSaProdavačima(spasiMe, "Izmjena", spasiMe.UkupniPromet);
+        [TestMethod]
+        public void TestMethod2()
+        {
+            string x = "Brakepoint1";
 
-            var y = 0;
+            trznica.RadSaProdavačimaTuning2(trazeniProdavac, "Izmjena", trazeniProdavac.UkupniPromet);
+
+            string y = "Brakepoint2";
+        }
+
+        [TestMethod]
+        public void TestMethod3()
+        {
+            string x = "Brakepoint1";
+
+            trznica.RadSaProdavačimaTuning3(trazeniProdavac, "Izmjena", trazeniProdavac.UkupniPromet);
+
+            string y = "Brakepoint2";
         }
     }
 }
