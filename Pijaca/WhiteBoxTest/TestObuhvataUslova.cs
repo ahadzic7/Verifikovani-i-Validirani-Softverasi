@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿/*using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using Pijaca;
 using System.Collections.Generic;
@@ -127,3 +127,4 @@ namespace WhiteBoxTest
         }
     }
 }
+*/
