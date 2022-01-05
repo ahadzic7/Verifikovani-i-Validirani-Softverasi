@@ -138,7 +138,7 @@ namespace Pijaca
             var velicina = prodavači.Count;
             var index = 0;
 
-            for (int i = 0; i < velicina; i += 4)
+            for (int i = 0; i < velicina; i++)
             {
                 var prodavac = prodavači[i];
                 var prodavacIme = prodavac.Ime;
