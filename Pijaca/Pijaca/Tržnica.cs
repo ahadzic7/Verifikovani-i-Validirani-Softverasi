@@ -255,7 +255,7 @@ namespace Pijaca
         /// Refaktoring Armin Hadzic 18667
         /// </summary>
 
-        private Prodavač pretragaProdavaca(Prodavač p, double najmanjiPromet)
+        private Prodavač pretragaProdavacaRefaktor(Prodavač p, double najmanjiPromet)
         {
             if (p == null)
                 throw new ArgumentNullException("Morate unijeti informacije o prodavaču!");
@@ -263,30 +263,32 @@ namespace Pijaca
             return prodavači.Find(prod => prod.Ime == p.Ime && prod.UkupniPromet == p.UkupniPromet);
         }
 
-        public void DodavanjeProdavaca(Prodavač p, double najmanjiPromet)
+        public void DodavanjeProdavacaRefaktor(Prodavač p, double najmanjiPromet)
         {
-            var postojeci = pretragaProdavaca(p, najmanjiPromet);
+            var postojeci = pretragaProdavacaRefaktor(p, najmanjiPromet);
             if (postojeci != null)
                 throw new InvalidOperationException("Nemoguće dodati prodavača kad već postoji registrovan!");
             prodavači.Add(p);
         }
 
-        public void BrisanjeProdavaca(Prodavač p, double najmanjiPromet)
+        public void BrisanjeProdavacaRefaktor(Prodavač p, double najmanjiPromet)
         {
-            var postojeci = pretragaProdavaca(p, najmanjiPromet);
+            var postojeci = pretragaProdavacaRefaktor(p, najmanjiPromet);
             if (postojeci == null)
                 throw new InvalidOperationException("Nemoguće izmijeniti tj. obrisati prodavača koji nije registrovan!");
             prodavači.Remove(p);
         }
 
-        public void IzmjenaProdavaca(Prodavač p, double najmanjiPromet)
+        public void IzmjenaProdavacaRefaktor(Prodavač p, double najmanjiPromet)
         {
-            var postojeci = pretragaProdavaca(p, najmanjiPromet);
+            var postojeci = pretragaProdavacaRefaktor(p, najmanjiPromet);
             if (postojeci == null)
                 throw new InvalidOperationException("Nemoguće izmijeniti tj. obrisati prodavača koji nije registrovan!");
             prodavači.Remove(postojeci);
             prodavači.Add(p);
         }
+
+
 
         public void OtvoriŠtand(Prodavač p, List<Proizvod> pr, DateTime rok)
         {

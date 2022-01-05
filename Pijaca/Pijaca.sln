@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pijaca", "Pijaca\Pijaca.csproj", "{549EEB88-F436-4803-A1D7-96A86D31858B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeTuning", "CodeTuning\CodeTuning.csproj", "{51400FAD-A051-4E1A-A6C6-404B48FB7B31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeTuning", "CodeTuning\CodeTuning.csproj", "{51400FAD-A051-4E1A-A6C6-404B48FB7B31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteBoxTest", "WhiteBoxTest\WhiteBoxTest.csproj", "{52373B6F-0C36-4704-A8BD-A1D77040D4CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{51400FAD-A051-4E1A-A6C6-404B48FB7B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51400FAD-A051-4E1A-A6C6-404B48FB7B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51400FAD-A051-4E1A-A6C6-404B48FB7B31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52373B6F-0C36-4704-A8BD-A1D77040D4CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52373B6F-0C36-4704-A8BD-A1D77040D4CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52373B6F-0C36-4704-A8BD-A1D77040D4CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52373B6F-0C36-4704-A8BD-A1D77040D4CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
