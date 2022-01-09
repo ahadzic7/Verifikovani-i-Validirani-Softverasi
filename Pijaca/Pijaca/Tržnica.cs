@@ -174,7 +174,7 @@ namespace Pijaca
         }
 
         /// <summary>
-        /// CodeTuning Ahmed Mahovac
+        /// CodeTuning Ahmed Mahovac 18735
         /// </summary>
 
         public void RadSaProdavačimaTuning3(Prodavač p, string opcija, double najmanjiPromet)
@@ -194,14 +194,17 @@ namespace Pijaca
                 var prodavacIme = prodavac.Ime;
                 var prodavacUkupniPromet = prodavac.UkupniPromet;
 
+                if ((i + 1) >= velicina) break;
                 var prodavac1 = prodavači[i + 1];
                 var prodavacIme1 = prodavac1.Ime;
                 var prodavacUkupniPromet1 = prodavac1.UkupniPromet;
 
+                if ((i + 2) >= velicina) break;
                 var prodavac2 = prodavači[i + 2];
                 var prodavacIme2 = prodavac2.Ime;
                 var prodavacUkupniPromet2 = prodavac2.UkupniPromet;
 
+                if ((i + 3) >= velicina) break;
                 var prodavac3 = prodavači[i + 3];
                 var prodavacIme3 = prodavac3.Ime;
                 var prodavacUkupniPromet3 = prodavac3.UkupniPromet;
@@ -345,7 +348,8 @@ namespace Pijaca
            štand.Prodavač.RegistrujPromet(sigurnosniKod, ukupanPromet, najranijaKupovina, najkasnijaKupovina);
         }
 
-
+       
+  
         public void NaručiProizvode(Štand štand, List<Proizvod> proizvodi, List<int> količine, List<DateTime> rokovi, bool svi = false)
         {
             if (proizvodi.Count != količine.Count || proizvodi.Count != rokovi.Count)
@@ -365,6 +369,27 @@ namespace Pijaca
                     continue;
             }
         }
+
+
+        /// <summary>
+        /// Refaktoring Ahmed Mahovac 18735
+        /// </summary>
+        public void NaručiProizvodeRefaktor(Štand štand, List<Proizvod> proizvodi, List<int> količine, List<DateTime> rokovi, bool svi = false)
+        {
+            if (proizvodi.Count != količine.Count || proizvodi.Count != rokovi.Count)
+                throw new ArgumentException("Pogrešan unos parametara!");
+
+            for (int i = 0; i < proizvodi.Count; i++)
+            {
+                    Proizvod pr = štand.Proizvodi.Find(p => p.ŠifraProizvoda == proizvodi[i].ŠifraProizvoda);
+                    if (pr == null)
+                        throw new ArgumentException("Nemoguće naručiti proizvod - nije registrovan na štandu!");
+
+                    pr.NaručiKoličinu(količine[i], rokovi[i]);
+            }
+        }
+        
+
 
         #endregion
     }
