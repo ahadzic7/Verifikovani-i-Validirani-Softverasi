@@ -374,13 +374,20 @@ namespace Pijaca
         /// <summary>
         /// Refaktoring Ahmed Mahovac 18735
         /// </summary>
+       
+
+
+
         public void NaručiProizvodeRefaktor(Štand štand, List<Proizvod> proizvodi, List<int> količine, List<DateTime> rokovi, bool svi = false)
         {
             if (proizvodi.Count != količine.Count || proizvodi.Count != rokovi.Count)
                 throw new ArgumentException("Pogrešan unos parametara!");
 
+            if (svi) return;
+
             for (int i = 0; i < proizvodi.Count; i++)
             {
+               
                     Proizvod pr = štand.Proizvodi.Find(p => p.ŠifraProizvoda == proizvodi[i].ŠifraProizvoda);
                     if (pr == null)
                         throw new ArgumentException("Nemoguće naručiti proizvod - nije registrovan na štandu!");
@@ -388,7 +395,6 @@ namespace Pijaca
                     pr.NaručiKoličinu(količine[i], rokovi[i]);
             }
         }
-        
 
 
         #endregion
