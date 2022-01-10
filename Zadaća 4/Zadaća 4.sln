@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadaća 4", "Zadaća 4\Zadaća 4.csproj", "{1DA36465-DF15-4D37-85C4-7695694D637F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zadaća 4", "Zadaća 4\Zadaća 4.csproj", "{1DA36465-DF15-4D37-85C4-7695694D637F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{38A081E2-DFE3-458A-9D82-0D93C235EBF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumTest", "SeleniumTest\SeleniumTest.csproj", "{A8758979-1C12-433B-954D-4E10071C6B58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,10 @@ Global
 		{1DA36465-DF15-4D37-85C4-7695694D637F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DA36465-DF15-4D37-85C4-7695694D637F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DA36465-DF15-4D37-85C4-7695694D637F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8758979-1C12-433B-954D-4E10071C6B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8758979-1C12-433B-954D-4E10071C6B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8758979-1C12-433B-954D-4E10071C6B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8758979-1C12-433B-954D-4E10071C6B58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

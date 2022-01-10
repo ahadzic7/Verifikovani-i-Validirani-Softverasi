@@ -34,7 +34,7 @@
                 <label asp-for="Godište" class="control-label"></label>
                 <input asp-for="Godište" class="form-control" id="godiste"/>
                 <span asp-validation-for="Godište" class="text-danger"></span>
-                <button style="margin-top: 5%; margin-left: 35%" onclick="return confirm(odrediGrupuKorisnika(document.getElementById('godiste')));" class="btn btn-primary">Korisnička Grupa</button>
+                <button id="btn" style="margin-top: 5%; margin-left: 35%" onclick="return confirm(odrediGrupuKorisnika(document.getElementById('godiste')));" class="btn btn-primary">Korisnička Grupa</button>
             </div>
             <div class="form-group form-check">
                 <label class="form-check-label">
