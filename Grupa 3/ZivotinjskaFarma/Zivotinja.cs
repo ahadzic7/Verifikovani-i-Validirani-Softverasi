@@ -36,7 +36,7 @@ static int brojac = -0;
             get => tjelesnaMasa;
             set
             {
-                if (value < 0.1 && value > 0.1)
+                if (value < 0.1)
                     throw new FormatException("Tjelesna masa ne može biti manja od 0.1 kg!");
                 tjelesnaMasa = value;
             }
